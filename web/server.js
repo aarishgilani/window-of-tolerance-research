@@ -18,19 +18,35 @@ app.get('/', (req, res) => {
   const index = site.buildIndex(WIKI_DIR);
   const indexPage = index.pages.find((p) => p.urlPath === 'index');
   if (indexPage) {
-    const { data, articleHtml } = site.renderPageBody(WIKI_DIR, indexPage, index, hrefForPage);
+    const { data, articleHtml, jsonLd } = site.renderPageBody(WIKI_DIR, indexPage, index, hrefForPage, homeHref);
+    const description = data.description || site.SITE_DESCRIPTION;
     return res.send(site.layout({
       title: data.title || indexPage.title,
+      description,
+      canonicalUrlPath: '',
+      pageType: 'website',
       currentUrlPath: indexPage.urlPath,
       index,
       bodyHtml: articleHtml,
+      jsonLd,
       hrefForPage,
       staticHref,
       homeHref,
     }));
   }
   const bodyHtml = site.renderAutoHomeBody(index, hrefForPage);
-  res.send(site.layout({ title: 'Home', currentUrlPath: '', index, bodyHtml, hrefForPage, staticHref, homeHref }));
+  res.send(site.layout({
+    title: 'Home',
+    description: site.SITE_DESCRIPTION,
+    canonicalUrlPath: '',
+    pageType: 'website',
+    currentUrlPath: '',
+    index,
+    bodyHtml,
+    hrefForPage,
+    staticHref,
+    homeHref,
+  }));
 });
 
 app.get('/wiki/*', (req, res) => {
@@ -41,7 +57,19 @@ app.get('/wiki/*', (req, res) => {
 
   const notFound = () => {
     const bodyHtml = site.renderNotFoundBody(reqPath, homeHref);
-    res.status(404).send(site.layout({ title: 'Not found', currentUrlPath: '', index, bodyHtml, hrefForPage, staticHref, homeHref }));
+    res.status(404).send(site.layout({
+      title: 'Not found',
+      description: 'Page not found — Window of Tolerance Wiki',
+      pageType: 'website',
+      noindex: true,
+      canonicalUrlPath: null,
+      currentUrlPath: '',
+      index,
+      bodyHtml,
+      hrefForPage,
+      staticHref,
+      homeHref,
+    }));
   };
 
   if (!full.startsWith(WIKI_DIR + path.sep) || !fs.existsSync(full) || !fs.statSync(full).isFile()) {
@@ -53,12 +81,16 @@ app.get('/wiki/*', (req, res) => {
     return notFound();
   }
 
-  const { data, articleHtml } = site.renderPageBody(WIKI_DIR, page, index, hrefForPage);
+  const { data, description, articleHtml, jsonLd } = site.renderPageBody(WIKI_DIR, page, index, hrefForPage, homeHref);
   res.send(site.layout({
     title: data.title || page.title,
+    description,
+    canonicalUrlPath: page.urlPath,
+    pageType: 'article',
     currentUrlPath: page.urlPath,
     index,
     bodyHtml: articleHtml,
+    jsonLd,
     hrefForPage,
     staticHref,
     homeHref,

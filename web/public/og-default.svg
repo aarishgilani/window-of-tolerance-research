@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Window of Tolerance Wiki">
+  <rect width="1200" height="630" fill="#ffffff"/>
+
+  <!-- Window of Tolerance band diagram -->
+  <g font-family="Helvetica, Arial, sans-serif" font-weight="600" text-anchor="middle">
+    <rect x="90" y="80" width="280" height="140" rx="4" fill="#d9774b"/>
+    <text x="230" y="156" font-size="24" fill="#ffffff">Hyper-arousal</text>
+
+    <rect x="90" y="226" width="280" height="178" rx="4" fill="#2f6f4f"/>
+    <text x="230" y="306" font-size="26" fill="#ffffff">Window of</text>
+    <text x="230" y="338" font-size="26" fill="#ffffff">Tolerance</text>
+
+    <rect x="90" y="410" width="280" height="140" rx="4" fill="#5b7fa6"/>
+    <text x="230" y="486" font-size="24" fill="#ffffff">Hypo-arousal</text>
+  </g>
+
+  <!-- Title block -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="430" y="290" font-size="60" font-weight="700" fill="#1d2127">Window of Tolerance</text>
+    <text x="430" y="360" font-size="60" font-weight="700" fill="#1d2127">Wiki</text>
+    <text x="430" y="420" font-size="28" fill="#6b7280">Polyvagal theory, interoception, and</text>
+    <text x="430" y="458" font-size="28" fill="#6b7280">nervous-system regulation — explained</text>
+    <text x="430" y="496" font-size="28" fill="#6b7280">and cross-referenced.</text>
+  </g>
+
+  <rect x="0" y="610" width="1200" height="20" fill="#2f6f4f"/>
+</svg>

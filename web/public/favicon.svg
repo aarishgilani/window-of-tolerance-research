@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Window of Tolerance Wiki">
+  <rect width="32" height="32" rx="6" fill="#ffffff"/>
+  <rect x="3" y="2" width="26" height="7" rx="1.5" fill="#d9774b"/>
+  <rect x="3" y="10" width="26" height="12" rx="1.5" fill="#2f6f4f"/>
+  <rect x="3" y="23" width="26" height="7" rx="1.5" fill="#5b7fa6"/>
+</svg>

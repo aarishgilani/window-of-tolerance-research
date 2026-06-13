@@ -123,6 +123,24 @@ body {
   max-width: 860px;
 }
 
+.breadcrumbs {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumbs a {
+  color: var(--muted);
+}
+
+.breadcrumbs .sep {
+  margin: 0 0.35rem;
+}
+
+.breadcrumbs [aria-current="page"] {
+  color: var(--fg);
+}
+
 .page-header h1 {
   margin-bottom: 0.4rem;
 }
@@ -248,4 +266,20 @@ th, td {
 
 th {
   background: var(--code-bg);
+}
+
+.site-footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.site-footer a {
+  color: var(--muted);
+}
+
+.footer-links {
+  margin-bottom: 0.25rem;
 }
