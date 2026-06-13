@@ -4,6 +4,7 @@ const site = require('./lib/site');
 
 const WIKI_DIR = path.resolve(__dirname, '..', 'wiki');
 const PUBLIC_DIR = path.join(__dirname, 'public');
+const PUBLIC_ROOT_DIR = path.join(__dirname, 'public-root');
 const OUT_DIR = path.join(__dirname, 'dist');
 
 // Every page is written to dist/wiki/<urlPath>/index.html, plus assets under
@@ -137,6 +138,9 @@ function renderFullPage({
 function build() {
   fs.rmSync(OUT_DIR, { recursive: true, force: true });
   copyDir(PUBLIC_DIR, path.join(OUT_DIR, 'static'));
+  // Files that must be served from the dist root (e.g. search-engine
+  // verification files), unlike web/public/ which lands under dist/static/.
+  copyDir(PUBLIC_ROOT_DIR, OUT_DIR);
 
   const index = site.buildIndex(WIKI_DIR);
 

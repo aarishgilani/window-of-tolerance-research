@@ -338,22 +338,24 @@ shapes both setups below.
 **Domain** property — a Domain property requires DNS-level verification,
 which isn't possible for a shared `github.io` subdomain.
 
-**Verification method — HTML `<meta>` tag (recommended):**
-- Search Console gives a token, e.g.
-  `<meta name="google-site-verification" content="TOKEN">`.
-- Add a `GSC_VERIFICATION` constant to `web/lib/site.js` next to
-  `SITE_URL`/`SITE_DESCRIPTION`, and emit the tag from `layout()`'s
-  `<head>` only when it's non-empty.
-- This is preferred over the HTML-file-upload method: `build.js` copies
-  `web/public/` into `dist/static/`, not the `dist/` root, so a
-  `googleXXXX.html` verification file would need a new top-level copy
-  step. A meta tag needs none — it rides along with every page that
-  already goes through `layout()`.
+**Verification method — HTML file upload (implemented):**
+- Search Console issues a `googleXXXX.html` file containing a single
+  `google-site-verification: googleXXXX.html` line, which must be served
+  at `{SITE_URL}googleXXXX.html` (dist root, not `dist/static/`).
+- `web/public-root/` is copied straight to `dist/` (alongside the
+  per-page `dist/static/` copy of `web/public/`) via a `copyDir` call in
+  `build.js`, for exactly this kind of root-level file — the verification
+  file lives at `web/public-root/google5d62b358b555bf0e.html`.
+- (The `<meta name="google-site-verification">` tag approach via a
+  `GSC_VERIFICATION` constant in `site.js` was considered as an
+  alternative requiring no new copy step, but the file-upload token was
+  already in hand, so that path wasn't needed.)
 
 **Rollout steps:**
 1. Create the property in Search Console (URL-prefix, `SITE_URL`).
-2. Get the verification token, add `GSC_VERIFICATION` to `site.js`,
-   commit, push (deploy workflow rebuilds `dist/` automatically).
+2. Verification file added at `web/public-root/google5d62b358b555bf0e.html`
+   (copied to `dist/` root on build); commit, push (deploy workflow
+   rebuilds `dist/` automatically).
 3. Click "Verify" in Search Console.
 4. Submit `sitemap.xml` — already generated at `dist/sitemap.xml`
    (`{SITE_URL}sitemap.xml`), no extra work needed.
