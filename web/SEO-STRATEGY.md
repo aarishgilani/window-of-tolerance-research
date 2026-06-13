@@ -291,7 +291,8 @@ than classic search:
 | **P1** | Fill `wiki/syntheses/` with 3–5 search-intent-mapped pages | Ongoing | — |
 | **P2** | Original diagrams for top concept pages | Medium | — |
 | **P2** | `llms.txt` | Tiny | sitemap |
-| **P2** | Search Console / Bing Webmaster setup + sitemap submission | Small | deployment |
+| **P2** | Google Search Console verification + sitemap submission (§6.1) | Small | deployment |
+| **P2** | GA4 analytics wiring + GSC↔GA4 link (§6.2) | Small | §6.1 |
 | **P2** | Outreach to resource lists/communities | Ongoing | content live |
 
 ---
@@ -319,3 +320,97 @@ duplication required:
 - `CLAUDE.md` — once `description` becomes a required frontmatter field,
   add it to the YAML block documented under "Wiki Page Conventions" so
   future ingests include it automatically.
+
+---
+
+## 6. Search Console & Analytics — Implementation Plan
+
+The site is deployed to a GitHub Pages *project page*
+(`https://aarishgilani.github.io/window-of-tolerance-research/`, set as
+`SITE_URL` in `web/lib/site.js`) via `.github/workflows/deploy-pages.yml`
+on every push to `main`. There is no custom domain / `CNAME`. That fact
+shapes both setups below.
+
+### 6.1 Google Search Console
+
+**Property type:** Use a **URL-prefix** property for `SITE_URL`, not a
+**Domain** property — a Domain property requires DNS-level verification,
+which isn't possible for a shared `github.io` subdomain.
+
+**Verification method — HTML `<meta>` tag (recommended):**
+- Search Console gives a token, e.g.
+  `<meta name="google-site-verification" content="TOKEN">`.
+- Add a `GSC_VERIFICATION` constant to `web/lib/site.js` next to
+  `SITE_URL`/`SITE_DESCRIPTION`, and emit the tag from `layout()`'s
+  `<head>` only when it's non-empty.
+- This is preferred over the HTML-file-upload method: `build.js` copies
+  `web/public/` into `dist/static/`, not the `dist/` root, so a
+  `googleXXXX.html` verification file would need a new top-level copy
+  step. A meta tag needs none — it rides along with every page that
+  already goes through `layout()`.
+
+**Rollout steps:**
+1. Create the property in Search Console (URL-prefix, `SITE_URL`).
+2. Get the verification token, add `GSC_VERIFICATION` to `site.js`,
+   commit, push (deploy workflow rebuilds `dist/` automatically).
+3. Click "Verify" in Search Console.
+4. Submit `sitemap.xml` — already generated at `dist/sitemap.xml`
+   (`{SITE_URL}sitemap.xml`), no extra work needed.
+5. After a few days, check the **Pages** coverage report for crawl/index
+   issues, and **Mobile Usability** / **Core Web Vitals** — relevant
+   given the sidebar-heavy layout and (per Pillar E) currently
+   image-free pages.
+6. Once verified, **Bing Webmaster Tools** can import this property
+   directly (Bing's "Import from Google Search Console" flow) for
+   near-zero extra effort.
+
+### 6.2 Google Analytics (GA4)
+
+**Setup:**
+1. Create a GA4 property (e.g. "Window of Tolerance Wiki") with a Web
+   data stream for `SITE_URL`; copy the Measurement ID (`G-XXXXXXXXXX`).
+2. Add a `GA_MEASUREMENT_ID` constant to `web/lib/site.js`.
+3. Extend `layout()` to emit the standard `gtag.js` snippet (async
+   script tag + inline `gtag('config', ...)`) in `<head>`, conditional
+   on `GA_MEASUREMENT_ID` being set — same pattern as the GSC meta tag.
+
+**Avoiding local-dev noise:**
+`server.js` (used for local preview via `npm start`) shares `layout()`
+with `build.js`. Rather than branching on `NODE_ENV` inside `site.js`,
+use GA4's built-in **internal traffic** filter (Admin → Data Streams →
+Configure tag settings → Define internal traffic, matched on your local
+IP) — this keeps `site.js` simple and is the standard GA4-native way to
+exclude dev/staging hits without code branches.
+
+**Privacy considerations (content is health/trauma-adjacent, YMYL-ish):**
+- GA4 anonymizes IPs by default — no extra config needed (unlike legacy
+  Universal Analytics).
+- In Admin → Data Settings → Data Collection, turn **off Google
+  Signals** / ad-personalization features. There's no advertising use
+  case here, and it's an easy way to reduce the data footprint on a
+  sensitive topic.
+- With Google Signals off and only basic GA4 page-view measurement, a
+  cookie-consent banner is *usually* not required, but this isn't legal
+  advice — revisit if EU traffic becomes meaningful. If a banner is ever
+  needed, or if cookies should be avoided entirely, a cookieless
+  alternative (Plausible, GoatCounter, Cloudflare Web Analytics) is a
+  drop-in `<script>` swap in the same `layout()` location.
+
+**Linking GSC ↔ GA4:**
+- GA4 Admin → Product Links → Search Console, link the now-verified §6.1
+  property. This surfaces Search Console queries/landing pages inside
+  GA4's Acquisition reports — useful for the "Long-tail traffic" and
+  "Engagement" rows in the Goals table (§2).
+
+### 6.3 Implementation touchpoints
+
+- `web/lib/site.js` — add `GSC_VERIFICATION` and `GA_MEASUREMENT_ID`
+  constants (empty strings until the properties exist); extend
+  `layout()` to emit the verification meta tag and gtag snippet when
+  each is non-empty. Both `build.js` and `server.js` pick this up
+  automatically since they share `layout()`.
+- No changes needed to `build.js` or `server.js` for either piece —
+  this is the advantage of centralizing in `site.js`.
+- Sequencing: §6.1 (GSC) has no dependencies and can ship immediately;
+  §6.2 (GA4) is independent but its GSC-link step depends on §6.1 being
+  verified first.

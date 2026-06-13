@@ -68,6 +68,33 @@ function writeRobotsTxt(outDir) {
   writeFile(path.join(outDir, 'robots.txt'), content);
 }
 
+// Writes dist/llms.txt: a plain-text index of every page with its one-line
+// description, following the emerging llms.txt convention so AI crawlers can
+// prioritize what to read without parsing full HTML.
+function writeLlmsTxt(outDir, pages) {
+  const lines = [`# Window of Tolerance Wiki`, '', `> ${site.SITE_DESCRIPTION}`, ''];
+
+  const entry = (page) => {
+    const loc = site.absoluteUrl(page.urlPath === 'index' ? '' : page.urlPath);
+    return `- [${page.title}](${loc}): ${page.description}`;
+  };
+
+  for (const page of pages.filter((p) => !p.category)) {
+    lines.push(entry(page));
+  }
+  lines.push('');
+
+  for (const cat of site.CATEGORY_ORDER) {
+    const items = pages.filter((p) => p.category === cat).sort((a, b) => a.title.localeCompare(b.title));
+    if (!items.length) continue;
+    lines.push(`## ${site.CATEGORY_LABELS[cat] || cat}`);
+    for (const page of items) lines.push(entry(page));
+    lines.push('');
+  }
+
+  writeFile(path.join(outDir, 'llms.txt'), lines.join('\n').trimEnd() + '\n');
+}
+
 // `currentUrlPath` drives nav active-highlighting; `depthUrlPath` is the
 // actual output location and drives relative link prefixes. These differ
 // for the home page, which is the wiki/index page rendered at dist/ root.
@@ -176,6 +203,7 @@ function build() {
 
   writeSitemap(OUT_DIR, pagesForSitemap);
   writeRobotsTxt(OUT_DIR);
+  writeLlmsTxt(OUT_DIR, pagesForSitemap);
 
   console.log(`Built ${index.pages.length} wiki page(s) to ${OUT_DIR}`);
 }
