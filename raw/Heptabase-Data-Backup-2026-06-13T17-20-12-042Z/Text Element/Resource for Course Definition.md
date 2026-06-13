@@ -1,0 +1,1 @@
+Resource for Course Definition

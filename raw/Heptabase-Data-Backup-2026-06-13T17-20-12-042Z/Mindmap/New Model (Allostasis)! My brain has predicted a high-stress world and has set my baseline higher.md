@@ -1,0 +1,2 @@
+# [Allostasis and the Baseline → New Model (Allostasis)! My brain has predicted a high-stress world .md](../Highlight/Allostasis%20and%20the%20Baseline%20→%20New%20Model%20\(Allostasis\)!%20My%20brain%20has%20predicted%20a%20high-stress%20world%20.md)
+## [Allostasis and the Baseline → The formal definition of baseline, the recalibration of resting sta.md](../Highlight/Allostasis%20and%20the%20Baseline%20→%20The%20formal%20definition%20of%20baseline,%20the%20recalibration%20of%20resting%20sta.md)

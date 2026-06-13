@@ -1,0 +1,5 @@
+# [The Predictive Body → Predictive Processing suggests that your !felt sense! of being alive is act.md](../Highlight/The%20Predictive%20Body%20→%20Predictive%20Processing%20suggests%20that%20your%20!felt%20sense!%20of%20being%20alive%20is%20act.md)
+## Top-Down Prediction (Mental Model)
+### [The Predictive Body → This is the information flowing from the higher centers of your brain (like.md](../Highlight/The%20Predictive%20Body%20→%20This%20is%20the%20information%20flowing%20from%20the%20higher%20centers%20of%20your%20brain%20\(like.md)
+## Bottom-Up Signals (The Raw Data)
+### [The Predictive Body → This is the raw data traveling up the Vagus nerve and spinal cord that we m.md](../Highlight/The%20Predictive%20Body%20→%20This%20is%20the%20raw%20data%20traveling%20up%20the%20Vagus%20nerve%20and%20spinal%20cord%20that%20we%20m.md)

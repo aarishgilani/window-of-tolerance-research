@@ -1,0 +1,1 @@
+Build further connection to the Cassandra effect, how, why and when do Dandelions listen to Orchids and how to build those communication pipelines.

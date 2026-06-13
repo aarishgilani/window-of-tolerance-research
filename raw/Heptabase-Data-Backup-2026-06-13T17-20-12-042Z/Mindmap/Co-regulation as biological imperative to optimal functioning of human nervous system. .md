@@ -1,0 +1,3 @@
+# [Riding the Ladder → Co-regulation as biological imperative to optimal functioning of human nervou.md](../Highlight/Riding%20the%20Ladder%20→%20Co-regulation%20as%20biological%20imperative%20to%20optimal%20functioning%20of%20human%20nervou.md)
+## [Co-Regulation and Connection → Basis of Attachment Theory by John Bowlby. Add research I was read.md](../Highlight/Co-Regulation%20and%20Connection%20→%20Basis%20of%20Attachment%20Theory%20by%20John%20Bowlby.%20Add%20research%20I%20was%20read.md)
+### [Co-Regulation and Connection → This is a self-sustaining feedback loop, I have a blueprint in my .md](../Highlight/Co-Regulation%20and%20Connection%20→%20This%20is%20a%20self-sustaining%20feedback%20loop,%20I%20have%20a%20blueprint%20in%20my%20.md)
