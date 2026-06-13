@@ -16,6 +16,11 @@ const CATEGORY_ORDER = ['concepts', 'entities', 'practices', 'sources', 'synthes
 const SITE_URL = 'https://aarishgilani.github.io/window-of-tolerance-research/';
 const SITE_DESCRIPTION = 'A cross-referenced wiki on the Window of Tolerance, polyvagal theory, interoception, and nervous-system regulation — concepts, mechanisms, and practices with inline source citations.';
 
+// IndexNow key: not a secret — publicly hosted at `${SITE_URL}${INDEXNOW_KEY}.txt`
+// (see writeIndexNowKey in build.js) so Bing/Yandex/Seznam/Naver/Yep can verify
+// submissions against this host.
+const INDEXNOW_KEY = '088372556d933852fc61dea3b4aaf8fe';
+
 // Maps a page's urlPath ('' for home, 'concepts/foo' for content pages) to an
 // absolute URL under SITE_URL, matching build.js's dist/ output layout.
 function absoluteUrl(urlPath) {
@@ -441,6 +446,7 @@ function renderNotFoundBody(reqPath, homeHref) {
 module.exports = {
   SITE_URL,
   SITE_DESCRIPTION,
+  INDEXNOW_KEY,
   absoluteUrl,
   CATEGORY_LABELS,
   CATEGORY_ORDER,

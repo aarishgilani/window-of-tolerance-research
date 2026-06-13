@@ -293,6 +293,7 @@ than classic search:
 | **P2** | `llms.txt` | Tiny | sitemap |
 | **P2** | Google Search Console verification + sitemap submission (§6.1) | Small | deployment |
 | **P2** | GA4 analytics wiring + GSC↔GA4 link (§6.2) | Small | §6.1 |
+| **P2** | IndexNow key hosting + submission automation (§7) | Tiny | deployment |
 | **P2** | Outreach to resource lists/communities | Ongoing | content live |
 
 ---
@@ -414,3 +415,38 @@ exclude dev/staging hits without code branches.
 - Sequencing: §6.1 (GSC) has no dependencies and can ship immediately;
   §6.2 (GA4) is independent but its GSC-link step depends on §6.1 being
   verified first.
+
+---
+
+## 7. IndexNow
+
+[IndexNow](https://www.indexnow.org/) is a protocol that lets a site push
+"this URL was added/updated" notifications directly to participating search
+engines, instead of waiting for them to recrawl. A single submission fans out
+to **Bing, Yandex, Seznam, and Naver/Yep — but not Google**, which doesn't
+participate in IndexNow (Bing Webmaster Tools is the separate path that covers
+Google, per §6.1).
+
+**Key file:** `build.js`'s `writeIndexNowKey()` writes a plain-text key file to
+`dist/<INDEXNOW_KEY>.txt`, hosted at `{SITE_URL}{INDEXNOW_KEY}.txt`. The key
+itself is not a secret — it's a domain-ownership token, analogous to the GSC
+verification meta tag.
+
+**`keyLocation` subpath:** IndexNow's spec allows the key file to live under a
+subpath as long as `keyLocation` in the submission points to it and it's on
+the same host. `submit-indexnow.js` sets `keyLocation` to
+`{SITE_URL}{INDEXNOW_KEY}.txt`, so the key file doesn't need to sit at the
+domain root.
+
+**Automation:** `web/scripts/submit-indexnow.js` reads `dist/sitemap.xml` and
+POSTs the full URL list to `https://api.indexnow.org/indexnow`. This is wired
+into `.github/workflows/deploy-pages.yml` as a step in the `deploy` job, run
+*after* `actions/deploy-pages@v4` (so the key file is live and fetchable when
+search engines validate it) — it runs on every push to `main`, resubmitting
+all ~35 URLs each time. Resubmitting unchanged URLs is harmless and keeps this
+simple rather than diffing changed files.
+
+**One-time bulk seed:** after this first deploys (so the key file is live),
+run `node web/scripts/submit-indexnow.js` manually once from `web/` to seed
+all existing pages. This is mostly redundant/optional — the CI step does the
+same thing automatically on this and every future deploy.

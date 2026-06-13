@@ -68,6 +68,12 @@ function writeRobotsTxt(outDir) {
   writeFile(path.join(outDir, 'robots.txt'), content);
 }
 
+// IndexNow key file: must be served at `${SITE_URL}${INDEXNOW_KEY}.txt` so
+// search engines can verify ownership when submit-indexnow.js notifies them.
+function writeIndexNowKey(outDir) {
+  writeFile(path.join(outDir, `${site.INDEXNOW_KEY}.txt`), `${site.INDEXNOW_KEY}\n`);
+}
+
 // Writes dist/llms.txt: a plain-text index of every page with its one-line
 // description, following the emerging llms.txt convention so AI crawlers can
 // prioritize what to read without parsing full HTML.
@@ -204,6 +210,7 @@ function build() {
   writeSitemap(OUT_DIR, pagesForSitemap);
   writeRobotsTxt(OUT_DIR);
   writeLlmsTxt(OUT_DIR, pagesForSitemap);
+  writeIndexNowKey(OUT_DIR);
 
   console.log(`Built ${index.pages.length} wiki page(s) to ${OUT_DIR}`);
 }
