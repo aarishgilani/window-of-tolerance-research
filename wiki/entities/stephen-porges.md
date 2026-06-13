@@ -1,6 +1,7 @@
 ---
 title: "Stephen Porges"
 type: entity
+description: "Neuroscientist who created Polyvagal Theory, revealing the vagus nerve's two distinct pathways and providing the biological mechanism behind the Window of Tolerance."
 tags: [stephen-porges, polyvagal-theory, vagal-paradox, neuroception, social-engagement-system]
 related: [polyvagal-theory, evolutionary-stack, neuroception, vagal-brake, ventral-vagal-complex, dorsal-vagal-complex, social-engagement-system]
 last_updated: 2026-06-13

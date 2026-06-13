@@ -1,7 +1,14 @@
+---
+title: "Home"
+description: "A cross-referenced wiki on the Window of Tolerance, polyvagal theory, interoception, and nervous-system regulation — concepts, mechanisms, and practices with inline source citations."
+last_updated: 2026-06-13
+---
+
 # Wiki Index
 
 ## Overview
 - [[overview]] — High-level synthesis of the Window of Tolerance knowledge base; four pillars, key principles, course arc
+- [[about]] — What this wiki is, how it's compiled, citation policy, and scope/limitations
 
 ## Concepts
 - [[window-of-tolerance]] — Dan Siegel's framework for optimal arousal bandwidth and neural integration
@@ -20,6 +27,12 @@
 - [[orchids-dandelions]] — Temperamental sensitivity (ARAS gain); Differential Susceptibility
 - [[predictive-body]] — Brain as prediction machine; top-down models vs. bottom-up signals; prediction error
 - [[theory-of-constructed-emotion]] — Barrett's model: emotion = affect + context + past experience
+- [[sympathetic-nervous-system]] — Mobilization branch; two-wave adrenaline/cortisol activation; not inherently pathological
+- [[parasympathetic-branch]] — Recovery/anabolic branch; acetylcholine; split into Ventral and Dorsal Vagal pathways
+- [[fight-flight-freeze]] — Fight/flight as sympathetic mobilization; freeze as simultaneous Sympathetic + Dorsal Vagal co-activation
+- [[progressive-overload]] — Training-science framing: controlled exposure to window edges expands window size
+- [[ventral-sympathetic-blend]] — Simultaneous Ventral safety + Sympathetic activation; the signature of regulated high arousal
+- [[shadow-work]] — Engaging avoided emotional material; requires a Ventral-Sympathetic Blend to avoid flooding or numbness
 
 ## Entities
 - [[dan-siegel]] — Window of Tolerance, neural integration, Interpersonal Neurobiology
@@ -31,6 +44,7 @@
 - [[social-engagement-system]] — Face, middle ear, voice hardware for safety broadcasting/receiving
 - [[nucleus-ambiguus]] — Brainstem origin of vagal brake; direct training target for practices
 - [[insular-cortex]] — Posterior (raw data) → anterior (subjective feeling) gradient; Salience Network; trainable
+- [[nucleus-of-solitary-tract]] — Brainstem gatekeeper; first relay for vagal afferents before thalamus and insular cortex
 
 ## Practices
 - [[physiological-sigh]] — Double-inhale + long exhale; fastest reset for acute hyper-arousal
@@ -54,4 +68,4 @@
 - [[lesson-9]] — Breathwork: physiological sigh, extended exhale, resonance frequency, box breathing
 
 ## Syntheses
-*(none yet — will populate as questions are filed)*
+- [[polyvagal-theory-criticisms-and-evidence]] — What's well-supported vs. contested in Polyvagal Theory, and how this wiki uses the framework

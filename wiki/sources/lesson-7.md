@@ -1,6 +1,7 @@
 ---
 title: "Lesson 7 — Emotions, Interoceptive Training, and the Window"
 type: source
+description: "Applies Barrett's theory of constructed emotion to show how interoceptive granularity from body scan and yoga gives early warning before emotional overwhelm."
 tags: [constructed-emotion, interoception, insular-cortex, yoga, body-scan, granularity, lisa-feldman-barrett]
 related: [theory-of-constructed-emotion, interoception, insular-cortex, body-scan, yoga-as-training, lisa-feldman-barrett, ventral-sympathetic-blend]
 last_updated: 2026-06-13

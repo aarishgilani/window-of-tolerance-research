@@ -1,6 +1,7 @@
 ---
 title: "Lesson 2 — The Autonomic Nervous System"
 type: source
+description: "Covers the ANS's sympathetic and parasympathetic branches, the vagus nerve's afferent dominance, and how allostatic load shrinks the window."
 tags: [ANS, sympathetic, parasympathetic, vagus-nerve, allostasis, fight-flight-freeze]
 related: [sympathetic-nervous-system, parasympathetic-branch, vagus-nerve, allostatic-load, fight-flight-freeze]
 last_updated: 2026-06-13

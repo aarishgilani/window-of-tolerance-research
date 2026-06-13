@@ -1,7 +1,7 @@
 ---
 title: "HRV Biofeedback"
 type: practice
-tags: [HRV-biofeedback, cardiac-coherence, resonance-frequency-breathing, vagal-brake, interoception, structural-training]
+description: "HRV biofeedback uses real-time heart rate variability data to make the vagal brake visible, helping practitioners train and calibrate the Nucleus Ambiguus directly."
 related: [hrv, resonance-frequency-breathing, vagal-brake, interoception, nucleus-ambiguus, respiratory-sinus-arrhythmia]
 last_updated: 2026-06-13
 ---

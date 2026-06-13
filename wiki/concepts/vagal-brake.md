@@ -1,6 +1,7 @@
 ---
 title: "The Vagal Brake"
 type: concept
+description: "The vagal brake is the continuous acetylcholine signal from the nucleus ambiguus to the heart's pacemaker that slows it below its intrinsic idle rate of about 100 BPM."
 tags: [vagal-brake, ventral-vagal, RSA, nucleus-ambiguus, acetylcholine, HRV, regulation]
 related: [ventral-vagal-complex, respiratory-sinus-arrhythmia, hrv, nucleus-ambiguus, polyvagal-theory, evolutionary-stack, no-skips-rule]
 source_count: 5

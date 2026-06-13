@@ -1,6 +1,7 @@
 ---
 title: "Interoception"
 type: concept
+description: "Interoception is the sensing of the body's internal state via vagal and spinal pathways to the insular cortex, providing the lead time needed for early self-regulation."
 tags: [interoception, insular-cortex, eighth-sense, granularity, lead-time, body-scan, interoceptive-accuracy]
 related: [insular-cortex, interoceptive-dimensions, predictive-body, window-of-tolerance, body-scan, yoga-as-training, theory-of-constructed-emotion, vagus-nerve]
 source_count: 4

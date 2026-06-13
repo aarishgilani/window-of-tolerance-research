@@ -1,7 +1,7 @@
 ---
 title: "Resonance Frequency Breathing (0.1 Hz)"
 type: practice
-tags: [resonance-frequency-breathing, HRV-biofeedback, cardiac-coherence, baroreflex, vagal-tone, structural-training]
+description: "Resonance frequency breathing at about six breaths per minute synchronizes respiration, heart rate, and the baroreflex to build structural vagal tone over time."
 related: [hrv, hrv-biofeedback, vagal-brake, respiratory-sinus-arrhythmia, nucleus-ambiguus, extended-exhale-breathing]
 last_updated: 2026-06-13
 ---

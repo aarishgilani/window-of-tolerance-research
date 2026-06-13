@@ -1,6 +1,7 @@
 ---
 title: "The Predictive Body (Predictive Processing)"
 type: concept
+description: "The brain actively predicts the body's state from past experience and generates felt sensations accordingly, so dysregulation often reflects an outdated prediction rather than current danger."
 tags: [predictive-processing, friston, top-down, bottom-up, prediction-error, interoception, anxiety]
 related: [interoception, insular-cortex, interoceptive-dimensions, neuroception, theory-of-constructed-emotion, allostatic-load]
 source_count: 3

@@ -1,6 +1,7 @@
 ---
 title: "Lisa Feldman Barrett"
 type: entity
+description: "Psychologist and neuroscientist who developed the Theory of Constructed Emotion, explaining how emotions are built from core affect, context, and past experience."
 tags: [lisa-feldman-barrett, constructed-emotion, predictive-processing, interoception, affect, granularity]
 related: [theory-of-constructed-emotion, interoception, predictive-body, insular-cortex, interoceptive-dimensions]
 last_updated: 2026-06-13

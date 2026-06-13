@@ -1,6 +1,7 @@
 ---
 title: "Overview — Window of Tolerance Knowledge Base"
 type: overview
+description: "An overview of the Window of Tolerance, polyvagal theory, interoception, and vagal-tone practices that together explain and train nervous-system regulation."
 tags: [overview, window-of-tolerance, ANS, polyvagal, interoception, vagal-tone]
 last_updated: 2026-06-13
 ---
@@ -8,6 +9,8 @@ last_updated: 2026-06-13
 # Overview — Window of Tolerance Knowledge Base
 
 This knowledge base documents a structured course on autonomic nervous system regulation, building from conceptual frameworks through biological mechanisms to practical techniques. The central thesis: regulation is not a character trait but a trainable biological capacity, and deliberate practice can expand it through measurable neuroplastic change.
+
+For how this knowledge base is compiled and its citation policy, see [[about|About This Wiki]].
 
 ---
 

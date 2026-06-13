@@ -1,7 +1,7 @@
 ---
 title: "Extended Exhale Breathing (1:2 / 1:4)"
 type: practice
-tags: [extended-exhale, breathwork, RSA, vagal-brake, parasympathetic, baseline-tuning]
+description: "Extended exhale breathing lengthens the exhale relative to the inhale to bias respiratory sinus arrhythmia toward parasympathetic braking, lowering baseline arousal."
 related: [respiratory-sinus-arrhythmia, vagal-brake, physiological-sigh, resonance-frequency-breathing, box-breathing, shadow-work]
 last_updated: 2026-06-13
 ---

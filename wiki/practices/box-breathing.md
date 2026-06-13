@@ -1,7 +1,7 @@
 ---
 title: "Box Breathing (4-4-4-4)"
 type: practice
-tags: [box-breathing, breathwork, CO2-tolerance, shadow-work, calm-readiness, kumbhaka]
+description: "Box breathing uses equal inhale-hold-exhale-hold phases to center arousal and desensitize brainstem CO2 chemoreceptors, building tolerance for sustained activation."
 related: [physiological-sigh, extended-exhale-breathing, resonance-frequency-breathing, vagal-brake, shadow-work]
 last_updated: 2026-06-13
 ---

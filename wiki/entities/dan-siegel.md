@@ -1,6 +1,7 @@
 ---
 title: "Dan Siegel"
 type: entity
+description: "Clinical psychiatrist and founder of Interpersonal Neurobiology who created the Window of Tolerance framework for understanding optimal arousal and emotional regulation."
 tags: [dan-siegel, window-of-tolerance, neural-integration, mindsight, interpersonal-neurobiology]
 related: [window-of-tolerance, three-zones, co-regulation]
 last_updated: 2026-06-13

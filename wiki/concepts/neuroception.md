@@ -1,6 +1,7 @@
 ---
 title: "Neuroception"
 type: concept
+description: "Neuroception is the subcortical, 24/7 detection of safety and threat cues that determines which of the three polyvagal circuits activates, entirely below conscious awareness."
 tags: [neuroception, polyvagal-theory, threat-detection, social-engagement-system, interoception, moral-alignment]
 related: [polyvagal-theory, stephen-porges, social-engagement-system, interoception, ventral-vagal-complex, dorsal-vagal-complex]
 source_count: 3

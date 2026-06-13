@@ -1,6 +1,7 @@
 ---
 title: "Ventral Vagal Complex (VVC)"
 type: entity
+description: "The myelinated, fast-acting 'Modern Vagus' circuit from the nucleus ambiguus that underlies feelings of safety, social connection, and precise heart rate regulation."
 tags: [ventral-vagal, nucleus-ambiguus, social-engagement-system, vagal-brake, safety, connection]
 related: [polyvagal-theory, evolutionary-stack, vagal-brake, social-engagement-system, neuroception, dorsal-vagal-complex, sympathetic-nervous-system]
 last_updated: 2026-06-13

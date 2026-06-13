@@ -1,6 +1,7 @@
 ---
 title: "Vagus Nerve (Cranial Nerve X)"
 type: entity
+description: "The body's primary parasympathetic pathway, a brainstem nerve that is roughly 80% afferent, continuously reporting internal organ states to the brain."
 tags: [vagus-nerve, parasympathetic, afferent, efferent, polyvagal-theory, interoception]
 related: [vagal-brake, ventral-vagal-complex, dorsal-vagal-complex, interoception, respiratory-sinus-arrhythmia, nucleus-ambiguus]
 last_updated: 2026-06-13

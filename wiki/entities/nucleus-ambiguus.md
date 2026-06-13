@@ -1,6 +1,7 @@
 ---
 title: "Nucleus Ambiguus"
 type: entity
+description: "A brainstem structure that originates the myelinated ventral vagal pathway, generating the vagal brake signal that regulates heart rate and social engagement."
 tags: [nucleus-ambiguus, ventral-vagal, vagal-brake, acetylcholine, brainstem, HRV]
 related: [ventral-vagal-complex, vagal-brake, hrv, respiratory-sinus-arrhythmia, social-engagement-system]
 last_updated: 2026-06-13

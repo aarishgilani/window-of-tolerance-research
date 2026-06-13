@@ -1,6 +1,7 @@
 ---
 title: "Insular Cortex (Insula)"
 type: entity
+description: "A cortical region hidden within the lateral sulcus that serves as the brain's primary interoceptive map, converting body signals into subjective feeling."
 tags: [insular-cortex, interoception, salience-network, anterior-insula, posterior-insula, emotion]
 related: [interoception, theory-of-constructed-emotion, predictive-body, interoceptive-dimensions, body-scan, yoga-as-training]
 last_updated: 2026-06-13

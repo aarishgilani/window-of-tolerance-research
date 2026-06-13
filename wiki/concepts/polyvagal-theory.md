@@ -1,6 +1,7 @@
 ---
 title: "Polyvagal Theory"
 type: concept
+description: "Polyvagal Theory replaces the two-branch sympathetic/parasympathetic model with a three-tier phylogenetic hierarchy explaining the biology of connection, mobilization, and shutdown."
 tags: [polyvagal-theory, stephen-porges, evolutionary-stack, vagal-brake, three-circuits, vagal-paradox]
 related: [stephen-porges, evolutionary-stack, vagal-brake, ventral-vagal-complex, dorsal-vagal-complex, sympathetic-nervous-system, no-skips-rule, neuroception]
 source_count: 5

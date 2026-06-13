@@ -1,6 +1,7 @@
 ---
 title: "Body Scan"
 type: practice
+description: "The body scan systematically moves attention through body regions to sharpen the insular cortex's interoceptive map via repeated Hebbian attention reps."
 tags: [body-scan, interoception, insular-cortex, neuroplasticity, mindfulness, mapping]
 related: [interoception, insular-cortex, interoceptive-dimensions, predictive-body, yoga-as-training, meditation-as-vagal-training]
 last_updated: 2026-06-13

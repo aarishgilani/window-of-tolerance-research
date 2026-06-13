@@ -36,12 +36,15 @@ Every wiki page must have a YAML frontmatter block:
 ---
 title: "Page Title"
 type: concept | entity | practice | source | synthesis | overview
+description: "One-sentence, standalone summary of the page (~120-155 chars), used as the meta description and AI-crawler summary."
 tags: [list, of, relevant, tags]
 related: [Other Page, Another Page]
 source_count: 0        # for concept/entity pages: how many sources support it
 last_updated: YYYY-MM-DD
 ---
 ```
+
+`description` should read as a complete sentence on its own (no "this page discusses..." framing) and summarize the page's core claim — it's shown in search results and may be quoted verbatim by AI assistants.
 
 **Cross-reference liberally.** When a page mentions a concept, person, or practice that has its own page, link it with `[[Page Name]]`. If the page doesn't exist yet, create it (a stub is fine).
 

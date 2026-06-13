@@ -1,3 +1,9 @@
+---
+title: "Activity Log"
+description: "An append-only log tracking every wiki ingest, query, and lint pass, recording which pages were created or updated and when."
+last_updated: 2026-06-13
+---
+
 # Wiki Log
 
 ## [2026-06-13] ingest | Lesson 1 — Introduction, The Three Zones, and Window Shape
@@ -39,3 +45,13 @@ Pages updated: practices/resonance-frequency-breathing, concepts/respiratory-sin
 ## [2026-06-13] build | Full wiki scaffold created
 Created: wiki/overview.md, wiki/index.md, wiki/log.md
 Total pages: 9 sources, 16 concepts, 9 entities, 8 practices, 1 overview = 43 pages
+
+## [2026-06-13] maintenance | SEO foundation (P0): meta tags, sitemap, descriptions
+Pages updated: all 45 wiki pages — backfilled `description:` frontmatter (one-sentence summaries for meta description / AI-crawler use); added frontmatter (title, description, last_updated) to wiki/index.md and wiki/log.md.
+Site/build changes: web/lib/site.js and web/build.js now emit per-page `<meta name="description">`, `<link rel="canonical">`, Open Graph/Twitter Card tags, and a favicon; web/build.js generates dist/sitemap.xml and dist/robots.txt; fixed a duplicate-output bug where wiki/index.md was rendered both as the homepage and at /wiki/index/. Added web/public/favicon.svg and web/public/og-default.svg (OG image source; PNG export pending).
+CLAUDE.md updated: documented `description:` as a standard frontmatter field for all wiki pages.
+
+## [2026-06-13] lint
+Issues found: 8 unresolved `[[wiki links]]` (no orphan pages).
+Fixed: created stub pages for all 8 — concepts/sympathetic-nervous-system, concepts/parasympathetic-branch, concepts/fight-flight-freeze, concepts/progressive-overload, concepts/ventral-sympathetic-blend, concepts/shadow-work, entities/nucleus-of-solitary-tract, and syntheses/polyvagal-theory-criticisms-and-evidence (filling the empty `wiki/syntheses/` category and resolving the link from `about.md`). All added to wiki/index.md. Re-running `lint-wiki.js` after these additions shows zero unresolved links and zero orphans.
+Open: wiki/syntheses/ now has 1 of the 3-5 search-intent pages recommended in web/SEO-STRATEGY.md Pillar D — "orchids vs. dandelions" and "meditation vs. dissociation" syntheses are still candidates for a future pass.

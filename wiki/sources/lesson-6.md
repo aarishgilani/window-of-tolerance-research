@@ -1,6 +1,7 @@
 ---
 title: "Lesson 6 — Interoception: From Organ to Cortex"
 type: source
+description: "Traces interoceptive signaling from organs through the NTS, thalamus, and insular cortex, and defines accuracy, sensibility, and predictive processing."
 tags: [interoception, insular-cortex, predictive-processing, accuracy-vs-sensibility, NTS, thalamus]
 related: [interoception, insular-cortex, predictive-body, interoceptive-dimensions, vagus-nerve, nucleus-of-solitary-tract]
 last_updated: 2026-06-13

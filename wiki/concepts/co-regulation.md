@@ -1,6 +1,7 @@
 ---
 title: "Co-Regulation"
 type: concept
+description: "Co-regulation is the process by which one nervous system borrows another's vagal brake via safety signals, since mammalian regulation evolved to operate in dyads, not isolation."
 tags: [co-regulation, social-engagement-system, polyvagal-theory, connection, isolation, biological-hook]
 related: [social-engagement-system, ventral-vagal-complex, neuroception, allostatic-load, hrv, shadow-work]
 source_count: 3

@@ -1,6 +1,7 @@
 ---
 title: "Lesson 4 — The Three Circuits and Neuroception"
 type: source
+description: "Details the ventral vagal, sympathetic, and dorsal vagal circuits and explains how neuroception scans for safety and threat below conscious awareness."
 tags: [ventral-vagal, sympathetic-mobilization, dorsal-vagal, neuroception, social-engagement-system]
 related: [ventral-vagal-complex, sympathetic-nervous-system, dorsal-vagal-complex, neuroception, social-engagement-system, no-skips-rule]
 last_updated: 2026-06-13

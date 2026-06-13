@@ -1,6 +1,7 @@
 ---
 title: "Lesson 9 — Breathwork Techniques and Mechanisms"
 type: source
+description: "Compares the physiological sigh, extended exhale, resonance frequency breathing, and box breathing, mapping each technique to its target use case."
 tags: [breathwork, physiological-sigh, extended-exhale, resonance-frequency-breathing, box-breathing, CO2-tolerance]
 related: [physiological-sigh, extended-exhale-breathing, resonance-frequency-breathing, box-breathing, respiratory-sinus-arrhythmia, vagal-brake]
 last_updated: 2026-06-13

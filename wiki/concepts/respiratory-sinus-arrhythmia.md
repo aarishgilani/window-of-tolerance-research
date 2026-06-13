@@ -1,6 +1,7 @@
 ---
 title: "Respiratory Sinus Arrhythmia (RSA)"
 type: concept
+description: "RSA is the natural breath-coupled rise and fall of heart rate, produced by baroreceptor-driven engagement of the vagal brake, and is the clearest direct signature of vagal brake health."
 tags: [RSA, HRV, vagal-brake, breathing, interoception, cardiac-coherence]
 related: [vagal-brake, hrv, resonance-frequency-breathing, extended-exhale-breathing, physiological-sigh, nucleus-ambiguus]
 source_count: 3

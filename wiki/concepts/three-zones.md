@@ -1,6 +1,7 @@
 ---
 title: "The Three Zones of Arousal"
 type: concept
+description: "The three zones map the regulated, hyper-aroused, and hypo-aroused states relative to the window of tolerance, each corresponding to a distinct polyvagal circuit dominance."
 tags: [three-zones, hyper-arousal, hypo-arousal, regulated-zone, fight-flight, freeze, false-calm]
 related: [window-of-tolerance, polyvagal-theory, ventral-vagal-complex, sympathetic-nervous-system, dorsal-vagal-complex, interoception]
 source_count: 4

@@ -1,6 +1,7 @@
 ---
 title: "The No Skips Rule"
 type: concept
+description: "The nervous system must traverse polyvagal states in their evolutionary order, so recovery from shutdown requires passing through a sympathetic 'thaw' before reaching ventral safety."
 tags: [no-skips-rule, polyvagal-ladder, evolutionary-stack, dorsal-vagal, sympathetic, recovery]
 related: [evolutionary-stack, polyvagal-theory, dorsal-vagal-complex, sympathetic-nervous-system, three-zones, shadow-work, meditation-as-vagal-training]
 source_count: 4

@@ -1,7 +1,7 @@
 ---
 title: "The Physiological Sigh"
 type: practice
-tags: [physiological-sigh, breathwork, CO2, alveoli, vagal-brake, acute-regulation]
+description: "The physiological sigh is a double inhale followed by a long exhale that reinflates collapsed alveoli, offloads CO2, and rapidly re-engages the vagal brake."
 related: [respiratory-sinus-arrhythmia, vagal-brake, extended-exhale-breathing, box-breathing, resonance-frequency-breathing]
 last_updated: 2026-06-13
 ---

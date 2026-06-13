@@ -1,6 +1,7 @@
 ---
 title: "Allostasis and Allostatic Load"
 type: concept
+description: "Allostatic load is the cumulative wear from staying physiologically ready for unresolved chronic stress, which drifts the resting baseline upward and shrinks the window from below."
 tags: [allostasis, allostatic-load, baseline-drift, window-of-tolerance, stress, chronic-stress]
 related: [window-of-tolerance, sympathetic-nervous-system, vagal-brake, hrv, co-regulation]
 source_count: 3

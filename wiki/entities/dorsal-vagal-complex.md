@@ -1,6 +1,7 @@
 ---
 title: "Dorsal Vagal Complex (DVC)"
 type: entity
+description: "The ancient, unmyelinated vagal circuit from the brainstem's dorsal motor nucleus that drives shutdown and freeze responses when threat feels inescapable."
 tags: [dorsal-vagal, shutdown, freeze, bradycardia, dissociation, conservation-withdrawal]
 related: [polyvagal-theory, evolutionary-stack, ventral-vagal-complex, no-skips-rule, three-zones, fight-flight-freeze]
 last_updated: 2026-06-13

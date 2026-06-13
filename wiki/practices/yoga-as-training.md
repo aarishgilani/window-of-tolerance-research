@@ -1,7 +1,7 @@
 ---
 title: "Yoga as Interoceptive and Vagal Training"
 type: practice
-tags: [yoga, interoception, vagal-brake, body-scan, stress-laboratory, yellow-zone, neuroplasticity]
+description: "Practiced with interoceptive awareness, yoga acts as a stress laboratory that trains the vagal brake and interoceptive accuracy under deliberate physical load."
 related: [interoception, insular-cortex, vagal-brake, body-scan, meditation-as-vagal-training, window-of-tolerance]
 last_updated: 2026-06-13
 ---

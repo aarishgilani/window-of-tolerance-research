@@ -1,6 +1,7 @@
 ---
 title: "The Evolutionary Stack (Polyvagal Hierarchy)"
 type: concept
+description: "The autonomic nervous system is a phylogenetic stack of three circuits (Ventral Vagal, Sympathetic, Dorsal Vagal) that activate and recover in evolutionary order, never skipping a layer."
 tags: [evolutionary-stack, polyvagal-theory, three-circuits, jacksonian-dissolution, no-skips-rule]
 related: [polyvagal-theory, ventral-vagal-complex, sympathetic-nervous-system, dorsal-vagal-complex, vagal-brake, no-skips-rule, stephen-porges]
 source_count: 4

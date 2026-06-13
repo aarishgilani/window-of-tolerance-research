@@ -1,6 +1,7 @@
 ---
 title: "Social Engagement System (SES)"
 type: entity
+description: "The cranial nerve circuits linked to the ventral vagal complex that let mammals broadcast and detect safety through facial expression, voice, and hearing."
 tags: [social-engagement-system, ventral-vagal, co-regulation, prosody, neuroception, cranial-nerves]
 related: [ventral-vagal-complex, co-regulation, neuroception, polyvagal-theory, stephen-porges]
 last_updated: 2026-06-13

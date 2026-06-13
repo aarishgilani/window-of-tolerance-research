@@ -1,6 +1,7 @@
 ---
 title: "Orchids, Dandelions, and Tulips (Differential Susceptibility)"
 type: concept
+description: "Innate temperament, driven by ARAS sensory gain, sets a person's baseline window width as orchid (high sensitivity), dandelion (low), or tulip (medium) before any experience shapes it."
 tags: [orchids-dandelions, temperament, differential-susceptibility, ARAS, sensitivity, window-of-tolerance]
 related: [window-of-tolerance, allostatic-load, vagal-brake, interoception, co-regulation]
 source_count: 2

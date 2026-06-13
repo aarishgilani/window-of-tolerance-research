@@ -1,7 +1,7 @@
 ---
 title: "Meditation as Vagal Brake Training"
 type: practice
-tags: [meditation, vagal-brake, nucleus-ambiguus, neuroplasticity, attention, myelination]
+description: "Meditation trains the vagal brake by repeatedly noticing mind-wandering and returning attention to an anchor, each return strengthening Nucleus Ambiguus pathways."
 related: [vagal-brake, nucleus-ambiguus, interoception, body-scan, yoga-as-training, no-skips-rule, shadow-work]
 last_updated: 2026-06-13
 ---

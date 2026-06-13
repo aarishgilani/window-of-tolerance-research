@@ -1,6 +1,7 @@
 ---
 title: "Lesson 1 — Introduction, The Three Zones, and Window Shape"
 type: source
+description: "Introduces the Window of Tolerance, its three arousal zones, and how early co-regulation and progressive overload shape window size."
 tags: [window-of-tolerance, three-zones, neural-integration, dan-siegel, regulation]
 related: [window-of-tolerance, three-zones, dan-siegel, allostatic-load, progressive-overload]
 last_updated: 2026-06-13

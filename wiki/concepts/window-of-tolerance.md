@@ -1,6 +1,7 @@
 ---
 title: "Window of Tolerance"
 type: concept
+description: "The Window of Tolerance is the bandwidth of arousal within which the prefrontal cortex and limbic system stay integrated, allowing a person to think and feel simultaneously."
 tags: [window-of-tolerance, neural-integration, dan-siegel, regulation, resilience]
 related: [three-zones, dan-siegel, allostatic-load, polyvagal-theory, interoception, vagal-brake]
 source_count: 9

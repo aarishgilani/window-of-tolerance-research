@@ -1,6 +1,7 @@
 ---
 title: "Lesson 8 — The Vagal Brake, HRV, and Building Vagal Tone"
 type: source
+description: "Explains the vagal brake mechanism, how HRV metrics reflect regulatory capacity, and how resonance frequency breathing builds structural vagal tone."
 tags: [vagal-brake, HRV, RSA, nucleus-ambiguus, HRV-biofeedback, vagal-tone, resonance-frequency-breathing]
 related: [vagal-brake, hrv, respiratory-sinus-arrhythmia, nucleus-ambiguus, hrv-biofeedback, resonance-frequency-breathing, allostatic-load, co-regulation]
 last_updated: 2026-06-13

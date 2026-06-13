@@ -1,6 +1,7 @@
 ---
 title: "Lesson 5 — Riding the Ladder, Co-Regulation, and Practice"
 type: source
+description: "Examines moving along the polyvagal ladder, how co-regulation borrows another person's vagal brake, and why meditation and shadow work need ventral safety."
 tags: [polyvagal-ladder, co-regulation, social-engagement-system, shadow-work, meditation, ventral-sympathetic-blend]
 related: [evolutionary-stack, co-regulation, social-engagement-system, no-skips-rule, shadow-work, meditation-as-vagal-training]
 last_updated: 2026-06-13

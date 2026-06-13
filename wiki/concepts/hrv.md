@@ -1,6 +1,7 @@
 ---
 title: "Heart Rate Variability (HRV)"
 type: concept
+description: "HRV measures millisecond-level variation between heartbeats and serves as the primary biomarker for vagal brake strength and overall autonomic regulatory reserve."
 tags: [HRV, vagal-brake, RMSSD, SDNN, cardiac-coherence, regulatory-capacity, vagal-tone]
 related: [vagal-brake, respiratory-sinus-arrhythmia, hrv-biofeedback, resonance-frequency-breathing, allostatic-load, co-regulation, nucleus-ambiguus]
 source_count: 2

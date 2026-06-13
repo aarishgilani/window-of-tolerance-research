@@ -1,6 +1,7 @@
 ---
 title: "Lesson 3 — Temperament and Polyvagal Theory Origins"
 type: source
+description: "Explains orchid/dandelion temperament, the origins of Polyvagal Theory, and the three-tier evolutionary ladder governing stress responses."
 tags: [polyvagal-theory, orchids-dandelions, evolutionary-stack, vagal-brake, temperament, ARAS]
 related: [orchids-dandelions, polyvagal-theory, evolutionary-stack, vagal-brake, stephen-porges, no-skips-rule]
 last_updated: 2026-06-13

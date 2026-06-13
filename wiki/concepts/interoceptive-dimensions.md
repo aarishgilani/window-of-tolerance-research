@@ -1,6 +1,7 @@
 ---
 title: "Interoceptive Dimensions (Accuracy, Sensibility, Awareness)"
 type: concept
+description: "Interoception splits into accuracy, sensibility, and metacognitive awareness, and a mismatch of high sensibility with low accuracy produces the anxiety-generating 'anxiety gap.'"
 tags: [interoception, accuracy, sensibility, metacognition, anxiety-gap, granularity]
 related: [interoception, insular-cortex, predictive-body, theory-of-constructed-emotion]
 source_count: 2

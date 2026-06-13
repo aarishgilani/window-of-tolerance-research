@@ -1,6 +1,7 @@
 ---
 title: "Theory of Constructed Emotion"
 type: concept
+description: "Emotions are actively constructed in the moment from raw physiological affect, context, and past experience, rather than being hardwired programs the brain simply reads off the body."
 tags: [constructed-emotion, lisa-feldman-barrett, affect, interoception, anterior-insula, james-lange, granularity]
 related: [lisa-feldman-barrett, interoception, insular-cortex, predictive-body, interoceptive-dimensions]
 source_count: 2
