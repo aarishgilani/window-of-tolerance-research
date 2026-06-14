@@ -9,11 +9,15 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
-const hrefForPage = (page) => `/wiki/${page.urlPath}`;
+// The home page (urlPath 'index') lives at /wiki/, not /wiki/index — matches
+// build.js's dist/wiki/index.html output.
+const hrefForPage = (page) => (page.urlPath === 'index' ? '/wiki/' : `/wiki/${page.urlPath}`);
 const staticHref = (asset) => `/static/${asset}`;
-const homeHref = '/';
+const homeHref = '/wiki/';
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => res.redirect('/wiki/'));
+
+app.get(['/wiki', '/wiki/'], (req, res) => {
   // Re-scan the wiki on every request so edits made by the LLM show up immediately.
   const index = site.buildIndex(WIKI_DIR);
   const indexPage = index.pages.find((p) => p.urlPath === 'index');
@@ -51,9 +55,7 @@ app.get('/', (req, res) => {
 
 app.get('/wiki/*', (req, res) => {
   const index = site.buildIndex(WIKI_DIR);
-  const reqPath = req.params[0].replace(/\.md$/i, '');
-  const rel = reqPath + '.md';
-  const full = path.resolve(WIKI_DIR, rel);
+  const reqPath = req.params[0].replace(/\.md$/i, '').replace(/\/$/, '');
 
   const notFound = () => {
     const bodyHtml = site.renderNotFoundBody(reqPath, homeHref);
@@ -71,6 +73,14 @@ app.get('/wiki/*', (req, res) => {
       homeHref,
     }));
   };
+
+  // 'index' (the home page) is served at /wiki/, not /wiki/index.
+  if (!reqPath || reqPath === 'index') {
+    return notFound();
+  }
+
+  const rel = reqPath + '.md';
+  const full = path.resolve(WIKI_DIR, rel);
 
   if (!full.startsWith(WIKI_DIR + path.sep) || !fs.existsSync(full) || !fs.statSync(full).isFile()) {
     return notFound();

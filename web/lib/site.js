@@ -22,9 +22,10 @@ const SITE_DESCRIPTION = 'A cross-referenced wiki on the Window of Tolerance, po
 const INDEXNOW_KEY = '088372556d933852fc61dea3b4aaf8fe';
 
 // Maps a page's urlPath ('' for home, 'concepts/foo' for content pages) to an
-// absolute URL under SITE_URL, matching build.js's dist/ output layout.
+// absolute URL under SITE_URL, matching build.js's dist/ output layout. The
+// homepage lives at `${SITE_URL}wiki/` — everything is rooted under /wiki/.
 function absoluteUrl(urlPath) {
-  if (!urlPath) return SITE_URL;
+  if (!urlPath) return `${SITE_URL}wiki/`;
   return `${SITE_URL}wiki/${urlPath}/`;
 }
 
@@ -229,7 +230,7 @@ function layout({
   jsonLd,
 }) {
   const desc = description || SITE_DESCRIPTION;
-  const image = ogImage || `${absoluteUrl('')}static/og-default.png`;
+  const image = ogImage || `${SITE_URL}static/og-default.png`;
   const canonical = canonicalUrlPath != null ? absoluteUrl(canonicalUrlPath) : null;
   const jsonLdHtml = jsonLd && jsonLd.length ? jsonld.renderJsonLdScripts(jsonLd) : '';
 
@@ -274,22 +275,24 @@ ${jsonLdHtml}
 }
 
 // Trail of crumbs for a page: Home -> [Category] -> Page Title. The category
-// crumb (if any) has no urlPath since there's no per-category index page.
+// crumb (if any) has no urlPath since there's no per-category index page, but
+// links to its section on the homepage (e.g. "#concepts") via `anchor`.
 // Returns null for the homepage (no breadcrumbs).
 function breadcrumbsForPage(page, index) {
   if (page.urlPath === 'index') return null;
   const crumbs = [{ name: 'Home', urlPath: 'index' }];
   if (page.category) {
-    crumbs.push({ name: CATEGORY_LABELS[page.category] || page.category, urlPath: null });
+    crumbs.push({ name: CATEGORY_LABELS[page.category] || page.category, urlPath: null, anchor: page.category });
   }
   crumbs.push({ name: page.title, urlPath: page.urlPath });
   return crumbs;
 }
 
 // Renders the breadcrumb trail as a nav. Home links to homeHref (the
-// homepage lives at dist/index.html, not dist/wiki/index/, so it can't use
-// hrefForPage); the category crumb (if any) and the current page are plain
-// text, with aria-current="page" on the current page.
+// homepage lives at dist/wiki/index.html — urlPath 'index' maps to the
+// wiki/ directory itself, not dist/wiki/index/, so it can't use
+// hrefForPage); the category crumb (if any) links to its section on the
+// homepage; the current page is plain text with aria-current="page".
 function breadcrumbsHtml(crumbs, homeHref) {
   if (!crumbs || !crumbs.length) return '';
   const parts = crumbs.map((crumb, i) => {
@@ -298,6 +301,9 @@ function breadcrumbsHtml(crumbs, homeHref) {
     }
     if (crumb.urlPath === 'index') {
       return `<a href="${homeHref}">${escapeHtml(crumb.name)}</a>`;
+    }
+    if (crumb.anchor) {
+      return `<a href="${homeHref}#${crumb.anchor}">${escapeHtml(crumb.name)}</a>`;
     }
     return `<span>${escapeHtml(crumb.name)}</span>`;
   });
@@ -370,7 +376,7 @@ function buildJsonLd(page, data, content, description, index, crumbs) {
   if (breadcrumbs) objects.push(breadcrumbs);
 
   if (page.urlPath === 'index') {
-    objects.push(jsonld.websiteJsonLd(SITE_URL, 'Window of Tolerance Wiki', description));
+    objects.push(jsonld.websiteJsonLd(absoluteUrl(''), 'Window of Tolerance Wiki', description));
   } else if (page.urlPath === 'overview') {
     objects.push(jsonld.definedTermSetJsonLd(page, data, description, index, absoluteUrl));
   } else if (page.category === 'concepts' || page.category === 'entities') {

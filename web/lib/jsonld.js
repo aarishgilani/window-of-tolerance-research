@@ -38,19 +38,19 @@ function extractProtocolSteps(content) {
   return items;
 }
 
-// `crumbs` is the array from site.breadcrumbsForPage(): [{name, urlPath}, ...].
-// The Home crumb and the current-page crumb get an `item` URL; a category
-// crumb (urlPath: null — there's no per-category index page) doesn't.
+// `crumbs` is the array from site.breadcrumbsForPage(): [{name, urlPath, anchor}, ...].
+// Every ListItem needs an `item` URL (Google rejects entries without one): the
+// Home and current-page crumbs link to their own page, while a category crumb
+// (urlPath: null — there's no per-category index page) links to its section
+// on the homepage via `anchor` (e.g. "#concepts").
 function breadcrumbListJsonLd(crumbs, absoluteUrl) {
   if (!crumbs || !crumbs.length) return null;
   const itemListElement = crumbs.map((crumb, i) => {
-    const item = { '@type': 'ListItem', position: i + 1, name: crumb.name };
-    if (crumb.urlPath === 'index') {
-      item.item = absoluteUrl('');
-    } else if (crumb.urlPath) {
-      item.item = absoluteUrl(crumb.urlPath);
-    }
-    return item;
+    let url;
+    if (crumb.urlPath === 'index') url = absoluteUrl('');
+    else if (crumb.urlPath) url = absoluteUrl(crumb.urlPath);
+    else if (crumb.anchor) url = `${absoluteUrl('')}#${crumb.anchor}`;
+    return { '@type': 'ListItem', position: i + 1, name: crumb.name, item: url };
   });
   return {
     '@context': 'https://schema.org',
