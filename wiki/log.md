@@ -1,7 +1,7 @@
 ---
 title: "Activity Log"
 description: "An append-only log tracking every wiki ingest, query, and lint pass, recording which pages were created or updated and when."
-last_updated: 2026-06-13
+last_updated: 2026-06-15
 ---
 
 # Wiki Log
@@ -55,3 +55,54 @@ CLAUDE.md updated: documented `description:` as a standard frontmatter field for
 Issues found: 8 unresolved `[[wiki links]]` (no orphan pages).
 Fixed: created stub pages for all 8 — concepts/sympathetic-nervous-system, concepts/parasympathetic-branch, concepts/fight-flight-freeze, concepts/progressive-overload, concepts/ventral-sympathetic-blend, concepts/shadow-work, entities/nucleus-of-solitary-tract, and syntheses/polyvagal-theory-criticisms-and-evidence (filling the empty `wiki/syntheses/` category and resolving the link from `about.md`). All added to wiki/index.md. Re-running `lint-wiki.js` after these additions shows zero unresolved links and zero orphans.
 Open: wiki/syntheses/ now has 1 of the 3-5 search-intent pages recommended in web/SEO-STRATEGY.md Pillar D — "orchids vs. dandelions" and "meditation vs. dissociation" syntheses are still candidates for a future pass.
+
+## [2026-06-15] ingest | Cluster E — Interoception & Predictive Processing (concept cards)
+Pages created: —
+Pages updated: concepts/interoception (metabolic ramping, somatic markers, Hyper/Hypo-arousal edge subsections, Sources), entities/insular-cortex (Mid-Insula Integration Zone, Somatic Marker Hypothesis section, Moral Compass Aarish note, Sources), concepts/theory-of-constructed-emotion (James-Lange 1884, Two Levers of Regulation, Emotion as Allostatic Guess, Sources), concepts/predictive-body (staircase-dark example, Two Ways to Resolve Prediction Error, Orchid/High-Gain Predictive System, recalibration Aarish note, Sources), concepts/interoceptive-dimensions (Hypo-arousal Flip section, clinical distinction, Sources)
+Source cards: What Interoception Is, The Insular Cortex, Emotions from the Body Up, The Predictive Body, Interoception Widens the Window
+
+## [2026-06-15] ingest | Cluster F — Breathwork Practices (concept cards)
+Pages created: practices/cold-exposure (MDR mechanism, Richer 2022 evidence, face-in-cold-water protocol), practices/humming-chanting-gargling (NTS dashboard, laryngeal branches, Bhramari, OM, gargling)
+Pages updated: practices/box-breathing (Kumbhaka tradition, Breathwork Tool Comparison table, Sources), practices/extended-exhale-breathing (Bhramari as cheat code, Nadi Shodhana, Sources), practices/physiological-sigh (Balban 2023 Stanford RCT, relaxation-induced anxiety, Sources), practices/meditation-as-vagal-training (Ritual as Neuroceptive Shortcut, neuroception added to related, Sources)
+Source cards: Box Breathing and Structured Protocols, Extended Exhale Breathing, The Physiological Sigh, Polyvagal Meets Practice, Cold Exposure and the Diving Reflex, Humming Chanting and Gargling
+
+## [2026-06-15] ingest | Cluster G — Body/Somatic Practices (concept cards)
+Pages created: —
+Pages updated: practices/somatic-movement-discharge (full rebuild: Zeigarnik Effect, Psoas section, Peter Levine/Somatic Experiencing, Neurogenic Tremors/TRE, Pandiculation, Training vs. Tending, False Calm, Does Exercise Count?, 2-minute shake + pandiculation protocols, Aarish note mirror neurons, source_count 1→4), practices/body-scan (Habituation Trap, blank-area navigation, Sara Lazar evidence, Sources section, source_count 2, last_updated), concepts/co-regulation (Obligate Gregariousness, Motherese/middle ear tuning, Zoom fatigue, Group Ventral Vagal field, bidirectional loop + infant co-reg Aarish note, mirror neuron Aarish note, Sources section, source_count 3→4), practices/meditation-as-vagal-training (State vs. Trait, Open Monitoring + PFC-amygdala inhibition + DMN decoupling, Metta as internalized co-regulation, Tool Selection Regulation vs. Expansion, source_count 2→3)
+Source cards: Somatic Movement and Discharge, Body Scan and Yoga as Training, Co-Regulation and Connection, Meditation and Body Scan as Down-Regulation
+
+## [2026-06-15] ingest | Cluster H — Temperament & Antifragility (concept cards + text elements)
+Pages created: concepts/antifragility (Black Swan, Mediocristan/Extremistan, Robustness vs. Antifragility, Orchid-Dandelion synthesis table, Narrative Fallacy / Dandelion Blindspot, Cassandra problem Aarish note)
+Pages updated: concepts/orchids-dandelions (population percentages, Diathesis-Stress vs. Differential Susceptibility paradigm shift, "Orchids are plastic" framing, Depth of Processing, Boyce citation, conditional fragility/antifragility, evolutionary sentinels, Cassandra Aarish note, Micro-recoveries, Sources section, source_count 2→5)
+Source cards: Orchids and Dandelions, Black Swan (NNT), Robustness vs Antifragility, Hedging Against the Dandelion Blindspots, Boyce text element
+
+## [2026-06-15] ingest | Wave 2 — PDF Research Papers (stubs)
+Pages created: sources/richer-2022-cold-face-test, sources/kim-kim-2025-interoception-moral, sources/lionetti-2018-orchids-dandelions, sources/laborde-2017-hrv-vagal-tone, sources/pluess-2020-sensitivity-environment, sources/manning-2017-attachment-social-anxiety (stub), sources/jellema-2024-social-intuition (stub), sources/swiatowy-2021-activity-dna-methylation (stub), sources/herrera-shaheen-2025-parkinsons-STUB (relevance unconfirmed), sources/barrett-2026-FLAGGED (out-of-scope, needs verification)
+Note: PDF reading requires `brew install poppler`. All 10 PDFs documented; 5 have substantive stubs from lesson card citations; 5 are stubs pending PDF read. Barrett 2026 title does not match ANS domain — flagged for verification.
+
+## [2026-06-15] ingest | Wave 3 — Text Elements, Mindmaps, Whiteboards
+Pages created: —
+Pages updated: —
+Notes: Mindmaps are structural outlines linking to existing card library cards — all content already ingested via card clusters. Text elements are either (a) already processed in Cluster H (Boyce, Cassandra) or (b) empty Heptabase canvas label strings (Classical Model, Polyvagal Post Classical, External Domain). Whiteboards are organizational containers (Regulate Your Nervous System = card/PDF/highlight index; others = system defaults). The "Thought 1" mindmap contains a novel threat-response circuit diagram (Neuroception → Amygdala → Stomach Knot → Afferent Vagal → NTS Confirms → Sympathetic) — this somatic confirmation loop is implicitly covered in predictive-body.md Active Inference section but not explicitly diagrammed; candidate for a future synthesis page.
+
+## [2026-06-15] ingest | Wave 2 — PDF Research Papers (full re-ingest via pypdf)
+Note: pypdf installed (pip3 install pypdf); all 9 readable PDFs extracted and read in full.
+Barrett 2026 confirmed out of scope (graph theory / discrete math; Jordan Barrett, Dalhousie — not Lisa Feldman Barrett).
+Herrera 2025 file not found on disk.
+Pages created/updated:
+- sources/richer-2022-cold-face-test — full rewrite: MIST protocol (Montreal Imaging Stress Task), cooling mask specs (−1°C + −14°C overlay), exact bradycardia figures (26.6%/23.9%/20.1%), p<0.05 cortisol result, state-independence confirmed
+- sources/lionetti-2018-orchids-dandelions — full rewrite: actual proportions (Orchid 31%, Tulip 40%, Dandelion 29%); latent class analysis; Big Five profile (high neuroticism + low extraversion); positive emotional reactivity finding
+- sources/kim-kim-2025-interoception-moral — full rewrite: two experiments; K-MAIA + heartbeat counting task; vmPFC + precuneus as mediators (not insular cortex directly); allostasis/prediction-error framing
+- sources/laborde-2017-hrv-vagal-tone — full rewrite: Five HRV theories (neurovisceral integration, polyvagal, biological behavioral, resonance frequency, psychophysiological coherence); Three Rs (Resting/Reactivity/Recovery); tonic vs. phasic distinction; confound list
+- sources/pluess-2020-sensitivity-environment — full rewrite: HSP-12 validation; N=1,140 across 4 studies; dual personality profile (high neuroticism + high openness); Integrated Environmental Sensitivity framework
+- sources/manning-2017-attachment-social-anxiety — full rewrite: 30 studies, 28 positive; anxious attachment strongest predictor; cognitive (IWMs) + evolutionary (social rank) mediators; clinical implications
+- sources/jellema-2024-social-intuition — full rewrite: Social-Affective Implicit Learning (SAIL); Mirror Neuron Mechanism (MNM) + Action Observation Network; ASC impairment selective to social (not non-social) implicit learning; Damasio somatic marker connection
+- sources/swiatowy-2021-activity-dna-methylation — full rewrite: DNMT enzymes; CpG island methylation = gene silencing; exercise → methylation changes in muscle/adipose/blood; epigenetic layer of structural change model
+- sources/barrett-2026-FLAGGED — confirmed out of scope, action required to remove file
+Corrections to existing wiki pages:
+- concepts/orchids-dandelions.md — corrected population percentages (Orchid 31%, Tulip 40%, Dandelion 29%) to match Lionetti 2018 actual data
+- entities/insular-cortex.md — added Kim & Kim 2025 section with neural pathway clarification (vmPFC/precuneus as explicit mediators; insula as upstream interoceptive substrate)
+- concepts/hrv.md — added Tonic vs. Phasic HRV section; Three Rs framework; respiration confound note (Laborde et al. 2017); source added
+
+## [2026-06-15] maintenance | index.md and log.md updated for 2026-06-15 ingest
+index.md: added concepts/antifragility; updated orchids-dandelions description; added cold-exposure, humming-chanting-gargling, somatic-movement-discharge to Practices index; updated body-scan and meditation-as-vagal-training descriptions; added all 10 PDF sources to Sources section; updated last_updated to 2026-06-15.

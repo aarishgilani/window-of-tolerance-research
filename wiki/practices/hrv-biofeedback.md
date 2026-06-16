@@ -3,12 +3,15 @@ title: "HRV Biofeedback"
 type: practice
 description: "HRV biofeedback uses real-time heart rate variability data to make the vagal brake visible, helping practitioners train and calibrate the Nucleus Ambiguus directly."
 related: [hrv, resonance-frequency-breathing, vagal-brake, interoception, nucleus-ambiguus, respiratory-sinus-arrhythmia]
-last_updated: 2026-06-13
+source_count: 1
+last_updated: 2026-06-15
 ---
 
 # HRV Biofeedback
 
 HRV biofeedback is the use of real-time heart rate variability data to train the [[vagal-brake]] and build structural vagal tone. The device acts as a mirror for the Nucleus Ambiguus — making the normally invisible brake mechanism visible and directly trainable. (Lesson 8)
+
+This marks a shift from HRV as a passive "report card" (a number reflecting sleep, training load, alcohol intake — see [[hrv]]) to HRV as an active training input: the same data, but used in the moment to shape the breath rather than reviewed afterward to explain how the day went. (Card: "HRV Biofeedback")
 
 ## What Biofeedback Adds
 
@@ -41,3 +44,8 @@ This is how biofeedback training translates to real-world regulatory capacity: n
 - **Apps**: Elite HRV, HRV4Training, Heartmath (Inner Balance) — each shows coherence differently
 - **Heartmath Inner Balance**: specifically designed for coherence training — shows the "coherence score" and wave pattern in real time
 - **Wrist-based monitors**: less accurate for beat-to-beat data but useful for daily morning HRV tracking
+
+## Sources
+
+- Lesson 8 — Heart Rate Variability and Vagal Training
+- Card: "HRV Biofeedback"

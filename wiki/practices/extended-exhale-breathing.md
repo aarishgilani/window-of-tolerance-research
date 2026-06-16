@@ -3,7 +3,8 @@ title: "Extended Exhale Breathing (1:2 / 1:4)"
 type: practice
 description: "Extended exhale breathing lengthens the exhale relative to the inhale to bias respiratory sinus arrhythmia toward parasympathetic braking, lowering baseline arousal."
 related: [respiratory-sinus-arrhythmia, vagal-brake, physiological-sigh, resonance-frequency-breathing, box-breathing, shadow-work]
-last_updated: 2026-06-13
+source_count: 1
+last_updated: 2026-06-15
 ---
 
 # Extended Exhale Breathing
@@ -52,6 +53,19 @@ No breath hold in this protocol — the goal is continuous, smooth cycling, maxi
 
 Extended exhale is used *during* the work; physiological sigh is used *in response to* an acute peak.
 
+## Pranayama Applications
+
+RSA mechanics transform established pranayama techniques into precise neurological interventions.
+
+**Bhramari (Humming Bee Breath)**: Bhramari is a "cheat code" for the extended exhale. Humming with closed lips creates slight glottic constriction that builds backpressure, naturally elongating the exhale to a 1:4 or 1:8 ratio without counting or effort. Simultaneously, the vagal innervation of the larynx means the vibration provides direct mechanical stimulation to afferent vagal fibers — combining RSA braking and laryngeal nerve stimulation in one technique (see [[humming-chanting-gargling]]). (Card: "Extended Exhale Breathing")
+
+**Nadi Shodhana with the Ratio Rule**: Alternate nostril breathing with equal inhale/exhale (the common version) leaves the parasympathetic shift unused. Applying the ratio rule — inhale one side (4 counts), exhale opposite side (8 counts) — combines the practice's hemispheric-balancing effects with deliberate vagal braking via RSA. (Card: "Extended Exhale Breathing")
+
 ## Extended Exhale vs. Box Breathing
 
 Extended exhale is **more relaxing** — it dampens arousal. Box breathing **stabilizes at center** without dampening. For shadow work where you want to hold emotional activation within the window, box breathing is better. Extended exhale risks bypassing the activation entirely. (Lesson 9 Q&A)
+
+## Sources
+
+- Lesson 9 — Breathwork Protocols
+- Card: "Extended Exhale Breathing"

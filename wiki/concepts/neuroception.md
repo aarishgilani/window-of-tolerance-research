@@ -3,14 +3,16 @@ title: "Neuroception"
 type: concept
 description: "Neuroception is the subcortical, 24/7 detection of safety and threat cues that determines which of the three polyvagal circuits activates, entirely below conscious awareness."
 tags: [neuroception, polyvagal-theory, threat-detection, social-engagement-system, interoception, moral-alignment]
-related: [polyvagal-theory, stephen-porges, social-engagement-system, interoception, ventral-vagal-complex, dorsal-vagal-complex]
-source_count: 3
-last_updated: 2026-06-13
+related: [polyvagal-theory, stephen-porges, social-engagement-system, interoception, ventral-vagal-complex, dorsal-vagal-complex, orchids-dandelions, evolutionary-stack]
+source_count: 4
+last_updated: 2026-06-15
 ---
 
 # Neuroception
 
 Neuroception is **"detection without perception"** — a subcortical surveillance system that continuously evaluates safety and threat cues beneath conscious awareness, 24/7. Coined by [[stephen-porges]] as part of [[polyvagal-theory]], neuroception is what determines which of the three polyvagal circuits activates in any given moment. (Lesson 4)
+
+Think of the nervous system as a security team monitoring a vast bank of video feeds around the clock. Most footage is mundane, so the "Head of Security" (the conscious mind) isn't bothered with the details — but the moment a sensor detects a breach, the team triggers the alarm immediately, and the building is already in lockdown by the time the Head of Security looks at the monitors. Neuroception is that security team: the software that decides which [[evolutionary-stack|circuit]] (Ventral, Sympathetic, or Dorsal) the body should run, by continuously asking one question — **"Am I safe?"** (Card: "Neuroception")
 
 ## Mechanism
 
@@ -46,6 +48,15 @@ Furthermore, higher [[interoception|interoceptive awareness]] can actually incre
 
 The insula also processes a "moral dimension" — a sense of visceral unease (pit in the stomach) that signals conflict between internal truth and social group alignment. (Lesson 6)
 
+## Faulty Neuroception: The Broken Alarm
+
+In a well-calibrated system, neuroception is a lifesaver — but the "security team" can be biased by history or temperament, producing **faulty neuroception**: seeing threat where none exists.
+
+- **History**: a history of chronic stress or trauma can leave the neuroceptive "lenses" scratched or smudged — a neutral face reads as angry, a quiet room reads as "eerie" rather than peaceful. The system is stuck in high-alert mode, scanning so aggressively for danger cues that it misses available safety cues (a warm smile, a steady breath).
+- **Temperament**: an [[orchids-dandelions|Orchid]] nervous system has its ARAS "volume knob" turned up, making neuroception naturally high-gain — it picks up subtle cues a Dandelion would miss. This makes an Orchid highly perceptive, but also means a slight change in a partner's tone isn't just "a detail" — it's a neuroceptive flare-up that can push the system toward the edge of the [[window-of-tolerance]].
+
+(Card: "Neuroception")
+
 ## Cleaning the Lens
 
 Neuroception can be miscalibrated — generating false positives (seeing threat where there is none) due to:
@@ -56,3 +67,25 @@ Neuroception can be miscalibrated — generating false positives (seeing threat 
 **Interoceptive training** and **breathwork** help "clean the lens" of neuroception — by increasing accuracy of internal sensing, they give neuroception more reliable data, allowing faster return to Ventral state after false alarms. (Lesson 4 Review)
 
 **Consistent Ventral practice environments** (same smells, sounds, setting) function as neuroceptive shortcuts — the sensory context itself signals "safe to use higher-order functions," preemptively biasing neuroception toward safety. (Lesson 5)
+
+This recalibration is literally what a [[body-scan|body scan]] trains: by learning to distinguish "my heart is racing because I'm excited" from "my heart is racing because I'm in danger," the practice cleans the internal-domain lens. In shadow work, bringing "exiled" parts of the self into a Ventral container teaches neuroception that those internal signals are no longer survival threats. (Card: "Neuroception")
+
+## Open Question: What Does "Not Safe" Actually Mean?
+
+> **Aarish's note**: "What would the definition of 'not safe' look like? Is it something subjective to the person, or is there an abstract objective definition of 'not safe' which, when initialized, looks different based on [the] subjective interpretation of the individual?" (Card: "!Not Safe,!")
+
+This is an open research thread for this wiki. The material above describes *how* neuroception evaluates "not safe" (three scanning domains, faulty calibration from history/temperament) but doesn't define the term itself. A plausible synthesis: "not safe" may function as an **objective trigger condition** (a cue crossing some threshold of mismatch against the system's predictive model — see [[predictive-body]]) whose **content** is entirely shaped by subjective history and temperament — i.e., the *mechanism* is universal (a prediction-error/threat-detection process) while the *inputs* that satisfy it are individually calibrated. This would unify "faulty neuroception" (miscalibrated inputs) with a stable underlying definition (the mechanism). Candidate sources to test this: predictive-processing literature (Barrett) on how priors determine what counts as a prediction error.
+
+## Related Concepts
+
+- [[evolutionary-stack]] — neuroception is the "software" that selects which rung of the ladder is active
+- [[orchids-dandelions]] — temperament sets neuroception's baseline sensitivity
+- [[social-engagement-system]] — the relational-domain hardware neuroception reads
+- [[predictive-body]] — the predictive-processing framing of "threat" as prediction error
+
+## Sources
+
+- Lesson 4 — Neuroception and the Social Engagement System
+- Lesson 6 — Interoception and the Insular Cortex
+- Card: "Neuroception"
+- Card: "!Not Safe,!"

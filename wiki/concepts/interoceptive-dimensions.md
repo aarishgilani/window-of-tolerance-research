@@ -4,8 +4,8 @@ type: concept
 description: "Interoception splits into accuracy, sensibility, and metacognitive awareness, and a mismatch of high sensibility with low accuracy produces the anxiety-generating 'anxiety gap.'"
 tags: [interoception, accuracy, sensibility, metacognition, anxiety-gap, granularity]
 related: [interoception, insular-cortex, predictive-body, theory-of-constructed-emotion]
-source_count: 2
-last_updated: 2026-06-13
+source_count: 3
+last_updated: 2026-06-15
 ---
 
 # Interoceptive Dimensions
@@ -44,6 +44,14 @@ Because the brain prefers any explanation over uncertainty (per the [[predictive
 
 **Resolution**: training Accuracy closes the gap. With higher-precision signals, even intense sensations can be deconstructed into specific components (location, quality, intensity, change over time) rather than experienced as undifferentiated threat. This is interoceptive **granularity**.
 
+### The Hypo-arousal Flip: Emotional Blunting
+
+The Anxiety Gap's mirror image: **low Sensibility + low Accuracy**. The person neither attends to nor accurately reads internal states. The result is not overactivation but underconnection — a muted or absent felt sense of being alive.
+
+Low interoceptive awareness correlates with hypo-arousal, dissociation, and emotional blunting. If the brain can't receive sufficient interoceptive data, it can't construct the "felt sense" of engagement, connection, or aliveness — leaving a chronically narrowed window biased toward shutdown rather than panic. (Card: "Interoception Widens the Window")
+
+The clinical distinction matters: high-IS/low-IA practitioners (Anxiety Gap) typically benefit most from training Accuracy through precise body-scan work. Low-IS/low-IA practitioners often need to rebuild the Sensibility disposition first — redirecting attention toward internal experience before refining precision.
+
 ## Granularity
 
 Granularity is the ability to distinguish subtle shades of internal states — the resolution of the body's internal map. It is the practical output of high Accuracy development.
@@ -54,3 +62,9 @@ At high granularity:
 - Emotional regulation becomes proactive rather than reactive — the rumble strip before the cliff
 
 This is the bridge between [[interoception]] and the [[theory-of-constructed-emotion]]: because emotions are constructed from physiological raw material (affect), higher-resolution affect data produces more differentiated, proportionate emotional constructions. (Lesson 7)
+
+## Sources
+
+- Lesson 6 — Interoception and the Insular Cortex
+- Lesson 7 — Interoceptive Training
+- Card: "Interoception Widens the Window"

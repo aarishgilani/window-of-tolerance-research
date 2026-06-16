@@ -4,7 +4,8 @@ type: practice
 description: "The body scan systematically moves attention through body regions to sharpen the insular cortex's interoceptive map via repeated Hebbian attention reps."
 tags: [body-scan, interoception, insular-cortex, neuroplasticity, mindfulness, mapping]
 related: [interoception, insular-cortex, interoceptive-dimensions, predictive-body, yoga-as-training, meditation-as-vagal-training]
-last_updated: 2026-06-13
+source_count: 2
+last_updated: 2026-06-15
 ---
 
 # Body Scan
@@ -44,3 +45,32 @@ Duration: 15–30 minutes for full scan; even 5 minutes of targeted attention to
 ## What It Is Not
 
 The body scan is not a relaxation exercise. Its goal is accuracy and mapping, not comfort. Some regions may produce uncomfortable sensations — the practice is to observe these without adding a narrative or immediately trying to change them. Prematurely soothing every uncomfortable sensation trains avoidance, not tolerance.
+
+## The Habituation Trap
+
+Experienced practitioners often hit a plateau where the body scan produces very little — sensations become predictable, attention runs on autopilot, and the session feels like "going through the motions." This is the **habituation pitfall**: the scan has been automated, and automation is the opposite of neuroplasticity.
+
+The distinction is between *doing the routine* and *training the sensor*. Once the body scan can be completed without effort, it has become a comfort ritual rather than an interoceptive workout. To re-engage the neuroplasticity mechanism:
+
+- Slow down: spend 2–3 minutes on a single body region rather than scanning continuously
+- Zoom in: distinguish left shoulder from right, the inner edge of a sensation from its outer edge
+- Add novelty: scan in reverse order, scan during mild movement, or scan in an unfamiliar position
+
+(Card: "Body Scan and Yoga as Training")
+
+## Working the Blank Areas
+
+Low-resolution regions of the insula's map often present as **blank or numb** during a body scan — you direct attention to the area and find nothing, or a vague undifferentiated mass. The habitual response is to skip over these and continue. The neuroplasticity response is the opposite: **stay at the blank area until a "flicker" appears**.
+
+A flicker is any change in the blank — a faint pressure, a slight temperature difference, a barely perceptible pulse. That moment of registering *something* where there was nothing is a moment of new neural connectivity. It is the equivalent, in interoceptive training, of the moment a muscle fiber recruits for the first time. Staying at blank areas and waiting for the flicker is where the highest-yield interoceptive reps occur. (Card: "Body Scan and Yoga as Training")
+
+**Anxiety gap formation:** High anterior insula activity without posterior resolution — worrying about sensations without actually perceiving them clearly — is the neurological signature of the anxiety gap (see [[interoceptive-dimensions]]). The body scan addresses this by systematically building posterior interoceptive signal to match the anterior's concern. (Card: "Body Scan and Yoga as Training")
+
+## Evidence
+
+Neuroimaging research by **Sara Lazar at Harvard** demonstrated measurable gray matter increases in the insular cortex and prefrontal cortex in practitioners with consistent meditation and body-awareness practice — specifically in regions associated with interoceptive processing and insula-PFC connectivity. This provides structural evidence that body-awareness practices produce lasting architectural changes in the brain's interoceptive hardware, not merely transient state effects. (Card: "Body Scan and Yoga as Training")
+
+## Sources
+
+- Lesson 7 — Interoception and Emotional Granularity
+- Card: "Body Scan and Yoga as Training"
