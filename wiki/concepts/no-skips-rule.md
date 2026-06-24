@@ -4,8 +4,8 @@ type: concept
 description: "The nervous system must traverse polyvagal states in their evolutionary order, so recovery from shutdown requires passing through a sympathetic 'thaw' before reaching ventral safety."
 tags: [no-skips-rule, polyvagal-ladder, evolutionary-stack, dorsal-vagal, sympathetic, recovery]
 related: [evolutionary-stack, polyvagal-theory, dorsal-vagal-complex, sympathetic-nervous-system, three-zones, shadow-work, meditation-as-vagal-training, grounding-techniques, somatic-movement-discharge]
-source_count: 6
-last_updated: 2026-06-15
+source_count: 7
+last_updated: 2026-06-23
 ---
 
 # The No Skips Rule
@@ -69,6 +69,10 @@ A worked example of descent and recovery within a single session:
 
 The way back up does **not** start with a deep meditation. It starts by deliberately re-engaging the Sympathetic rung — shaking out the arms, a few sharp breaths, standing and walking — which provides the energy needed to climb out of the Dorsal "pit" and back toward Ventral safety. See [[somatic-movement-discharge]] and [[grounding-techniques]] for the corresponding practices. (Card: "The Evolutionary Stack")
 
+### For Practice Selection
+
+The No Skips Rule governs which tools from the [[practice-ecology]] are appropriate at any given moment. If an audit reveals that a practitioner often ends up in a Dorsal shutdown (feeling foggy or depressed after a long day), a Ventral practice like silent meditation may be too far away — the rule predicts it will either fail or deepen the shutdown. A Sympathetic bridge is needed first: [[somatic-movement-discharge|shake or move]] (mobilize) before breathing and being (regulate). The [[technique-state-matching]] decision framework operationalizes this rule as a three-tier system: Tier 1 overrides get you back on the ladder, Tier 2 tools move you through the necessary transitions, and Tier 3 tools are reserved for work done from within the [[window-of-tolerance]]. (Mapping Your Practices; Matching Technique to State)
+
 ## Sources
 
 - Lesson 3 — Polyvagal Theory and the Evolutionary Stack
@@ -77,3 +81,4 @@ The way back up does **not** start with a deep meditation. It starts by delibera
 - Card: "The Evolutionary Stack"
 - Card: "Dorsal Vagal Shutdown Circuit"
 - Card: "Riding the Ladder"
+- Card: "Matching Technique to State"

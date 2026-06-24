@@ -4,8 +4,8 @@ type: concept
 description: "The Window of Tolerance is the bandwidth of arousal within which the prefrontal cortex and limbic system stay integrated, allowing a person to think and feel simultaneously."
 tags: [window-of-tolerance, neural-integration, dan-siegel, regulation, resilience]
 related: [three-zones, dan-siegel, allostatic-load, polyvagal-theory, interoception, vagal-brake, progressive-overload, metaphors-for-the-window]
-source_count: 11
-last_updated: 2026-06-14
+source_count: 12
+last_updated: 2026-06-23
 ---
 
 # Window of Tolerance
@@ -88,6 +88,16 @@ Key levers for structural widening:
 - **[[hrv-biofeedback]]**: builds structural vagal tone through consistent practice (8–12 week threshold for neuroplastic change)
 - **[[meditation-as-vagal-training]]**: each "return from wandering" strengthens the myelinated Vagus
 - **[[yoga-as-training]]**: trains the vagal brake under controlled physical stress
+
+## The Applied Frameworks: From Mechanism to Daily Practice
+
+Three application-oriented frameworks translate the mechanistic understanding of the window into daily practice: (Cards: "Mapping Your Practices," "Matching Technique to State," "Your Regulation Stack")
+
+1. **[[practice-ecology]]**: Audits the complete set of regulation practices by physiological mechanism — classifying tools as Interoception Builders (sensors), Vagal Tone Trainers (hardware), Window Expanders (capacity), or Arousal Cyclers (clean-up crew) — to identify gaps and imbalances
+2. **[[technique-state-matching]]**: A decision framework for selecting the right tool based on current nervous system state, not habit or label. Includes the "Hardware First, Software Second" sequencing rule: check the biological gauge before running the practice
+3. **[[regulation-stack]]**: A three-tier daily system — Tier 1 Acute Resets, Tier 2 Daily Maintenance, Tier 3 Structural Builders — sequenced so that lower tiers fund the capacity for higher-tier work
+
+Physical training also maps directly onto this framework as a Tier 3 stress laboratory — see [[training-performance-recovery]].
 
 ## Relevance to This Knowledge Base
 

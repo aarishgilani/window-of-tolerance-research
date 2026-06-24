@@ -3,8 +3,8 @@ title: "Box Breathing (4-4-4-4)"
 type: practice
 description: "Box breathing uses equal inhale-hold-exhale-hold phases to center arousal and desensitize brainstem CO2 chemoreceptors, building tolerance for sustained activation."
 related: [physiological-sigh, extended-exhale-breathing, resonance-frequency-breathing, vagal-brake, shadow-work]
-source_count: 1
-last_updated: 2026-06-15
+source_count: 2
+last_updated: 2026-06-23
 ---
 
 # Box Breathing
@@ -53,7 +53,7 @@ Adjust the base count (5s, 6s, etc.) to a length where the holds produce mild di
 
 - **Shadow work sessions**: primary breathwork protocol for active integration work. Stabilizes the container without dampening the activation needed for processing (Lesson 9 Q&A)
 - **Pre-performance** (presentations, difficult conversations): produces "Calm Readiness" — alert without anxiety
-- **High-intensity exercise** (between sets, tactical contexts): maintains composure under stress
+- **[[training-performance-recovery|Intra-workout regulation]]** (between sets): once the [[physiological-sigh]] has cleared the acute CO2 alarm, box breathing maintains "Calm Readiness" — keeping the PFC online for form analysis and technical focus without dropping the arousal edge needed for the next effort (Training, Performance, and Recovery)
 - **CO2 tolerance training**: used progressively to expand window size via brainstem desensitization
 
 ## Breathwork Tool Comparison
@@ -79,3 +79,4 @@ The choice depends on direction: if tipping toward flooding (Sympathetic) → ex
 
 - Lesson 9 — Breathwork Protocols
 - Card: "Box Breathing and Structured Protocols"
+- Card: "Training, Performance, and Recovery"

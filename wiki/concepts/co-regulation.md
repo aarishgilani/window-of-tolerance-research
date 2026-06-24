@@ -4,8 +4,8 @@ type: concept
 description: "Co-regulation is the process by which one nervous system borrows another's vagal brake via safety signals, since mammalian regulation evolved to operate in dyads, not isolation."
 tags: [co-regulation, social-engagement-system, polyvagal-theory, connection, isolation, biological-hook]
 related: [social-engagement-system, ventral-vagal-complex, neuroception, allostatic-load, hrv, shadow-work]
-source_count: 4
-last_updated: 2026-06-15
+source_count: 5
+last_updated: 2026-06-23
 ---
 
 # Co-Regulation
@@ -64,6 +64,14 @@ Video calls strip prosody from the voice (compression artifacts, latency, flat d
 
 **Zoom fatigue** is not psychological; it is a physiological phenomenon: the neuroception system expends extra metabolic resources to fill in the compressed, degraded social signal. The absence of the safety confirmation the SES needs registers as mild chronic stress, depleting the vagal reserve over the course of a call day. (Card: "Co-Regulation and Connection")
 
+## Co-Regulation as a Ventral Hook in Shadow Work
+
+In [[shadow-work]], the presence of another regulated human being provides a powerful **Ventral Hook** — their system does part of the regulatory work, expanding the practitioner's available [[window-of-tolerance]] for processing high-charge material. (Shadow Work and the Window)
+
+Their calm prosody, steady eye contact, and rhythmic breathing act as external neuroceptive cues that tell the brainstem: *"You are safe. We are in this together. You don't need to shut down."* Solo shadow work is often more difficult and "slippery" than work done in a therapeutic container because, in a relational setting, two nervous systems share the metabolic load of regulation — the available window is literally wider. (Shadow Work and the Window)
+
+This aligns with the **moral alignment** dimension of [[neuroception]]: the felt sense that the therapist or witness is *with* the practitioner, holding the same intention, provides a social-alignment safety signal that reduces the metabolic cost of the work. (Your Nervous System Field Guide)
+
 ## Group Practice as Ventral Vagal Field
 
 When 15–20 people breathe together, move together, or sit in shared silence with their SES systems broadcasting, a collective **"Ventral Vagal field"** is generated — a density of safety signals large enough to produce neuroceptive uplift in individuals who might not reach that state alone. Group meditation, yoga classes, kirtan, and choir all exploit this effect. The regulated majority regulates the less-regulated individuals through sheer neuroceptive volume. (Card: "Co-Regulation and Connection")
@@ -75,3 +83,5 @@ The imagined presence of a mentor, spiritual figure, or safe person can partiall
 - Lesson 5 — Co-Regulation and the Nervous System
 - Lesson 8 — Heart Rate Variability and Vagal Training
 - Card: "Co-Regulation and Connection"
+- Card: "Shadow Work and the Window"
+- Card: "Your Nervous System Field Guide"

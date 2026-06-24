@@ -1,7 +1,7 @@
 ---
 title: "Home"
 description: "A cross-referenced wiki on the Window of Tolerance, polyvagal theory, interoception, and nervous-system regulation — concepts, mechanisms, and practices with inline source citations."
-last_updated: 2026-06-15
+last_updated: 2026-06-23
 ---
 
 # Wiki Index
@@ -33,8 +33,16 @@ last_updated: 2026-06-15
 - [[fight-flight-freeze]] — Fight/flight as sympathetic mobilization; freeze as simultaneous Sympathetic + Dorsal Vagal co-activation
 - [[progressive-overload]] — Training-science framing: controlled exposure to window edges expands window size
 - [[ventral-sympathetic-blend]] — Simultaneous Ventral safety + Sympathetic activation; the signature of regulated high arousal
-- [[shadow-work]] — Engaging avoided emotional material; requires a Ventral-Sympathetic Blend to avoid flooding or numbness
+- [[shadow-work]] — Engaging avoided emotional material; integration requires ventral anchoring, dual awareness, and the blend
 - [[somatic-nervous-system]] — Voluntary motor system; breath as the one overlap with involuntary ANS; deliberate access point
+- [[technique-matching]] — Three-tier system (Override/Process/Optimize) for matching regulation tools to current nervous system state
+- [[regulation-stack]] — Practice ecology organized by physiological function; four categories, three tiers, strict sequencing logic
+- [[training-recovery-curve]] — The "V" Curve of vagal withdrawal and parasympathetic rebound; HRV as fuel gauge; Savasana Rule
+- [[nervous-system-field-guide]] — Personalized mapping of early-warning flickers, environmental anchors, and moral alignment as metabolic savings
+- [[practice-ecology]] — Four-category functional audit of regulation practices by physiological mechanism; gap analysis patterns
+- [[technique-state-matching]] — Decision framework for selecting tools based on current nervous system state; Hardware First, Software Second
+- [[training-performance-recovery]] — Physical training as Tier 3 stress laboratory; HRV-guided intensity; intra-workout regulation; parasympathetic rebound
+- [[top-down-modulation]] — PFC inhibits amygdala via affect labeling and mechanistic understanding; the "neuroscience scaffold"
 
 ## Entities
 - [[dan-siegel]] — Window of Tolerance, neural integration, Interpersonal Neurobiology
@@ -75,6 +83,8 @@ last_updated: 2026-06-15
 - [[lesson-7]] — Constructed emotion, interoceptive training, body scan and yoga as practice
 - [[lesson-8]] — Vagal brake mechanics, HRV, what moves HRV, HRV biofeedback, structural tone
 - [[lesson-9]] — Breathwork: physiological sigh, extended exhale, resonance frequency, box breathing
+- [[lesson-10]] — Completing the down-regulation toolkit; three-tier technique matching; hardware first, software second
+- [[lesson-11]] — Regulation Stack; practice ecology; shadow work integration rules; training-recovery curve; field guide
 
 ### Research Papers
 - [[richer-2022-cold-face-test]] — Cold Face Test RCT; 71.49% cortisol reduction via Mammalian Diving Reflex
@@ -87,6 +97,8 @@ last_updated: 2026-06-15
 - [[swiatowy-2021-activity-dna-methylation]] — Physical activity and DNA methylation; epigenetic practice effects (stub)
 - [[herrera-shaheen-2025-parkinsons-STUB]] — Parkinson's computational modelling; relevance unconfirmed (stub)
 - [[barrett-2026-FLAGGED]] — FLAGGED: title suggests fire science paper, not ANS — verify before ingest
+- [[xu-2023-ecological-transitions-FLAGGED]] — FLAGGED: ecological systems regime shifts (nonequilibrium statistical mechanics), not ANS
+- [[mattson-2021-goodharts-law-gme-FLAGGED]] — FLAGGED: Goodhart's Law applied to medical education assessment, not ANS
 
 ## Syntheses
 - [[polyvagal-theory-criticisms-and-evidence]] — What's well-supported vs. contested in Polyvagal Theory, and how this wiki uses the framework

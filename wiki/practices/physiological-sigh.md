@@ -3,8 +3,8 @@ title: "The Physiological Sigh"
 type: practice
 description: "The physiological sigh is a double inhale followed by a long exhale that reinflates collapsed alveoli, offloads CO2, and rapidly re-engages the vagal brake."
 related: [respiratory-sinus-arrhythmia, vagal-brake, extended-exhale-breathing, box-breathing, resonance-frequency-breathing]
-source_count: 1
-last_updated: 2026-06-15
+source_count: 2
+last_updated: 2026-06-23
 ---
 
 # The Physiological Sigh
@@ -34,7 +34,9 @@ One sigh is often sufficient for acute hyper-arousal. 2–3 sighs may be done in
 
 - **Acute stress spike** (sudden alarm, confrontation, anxious moment)
 - **Pre-performance** (presenting, difficult conversation, high-stakes task)
-- **Between exercise sets** where rapid recovery is the goal and not total rest (though see [[extended-exhale-breathing]] for recovery use)
+- **Between exercise sets** (the [[training-performance-recovery|intra-workout regulation protocol]]): 1–2 reps immediately after a heavy set pops alveoli and offloads excess CO2 faster than normal breathing, signaling the brainstem that the "suffocation" threat is over while maintaining the [[ventral-sympathetic-blend]] for the next effort (Training, Performance, and Recovery)
+- **"Transition Sighs"** between meetings or tasks during the day, preventing the "stacking" of SNS activation that contributes to [[allostatic-load]] (Your Regulation Stack)
+- **Post-workout "wired but tired":** If still in a sympathetic "overhang" after training, discharge shaking followed by 2 minutes of the physiological sigh tells the system the workout is over and to move to repair mode (Matching Technique to State)
 - Immediately at the onset of noticing the hyper-arousal rumble strip ([[interoception|interoceptive]] early detection)
 
 ## Not for: 
@@ -58,7 +60,13 @@ Why does a mechanical breath technique outperform meditation for acute stress? F
 
 The physiological sigh occurs naturally during sleep (the body auto-sighs periodically to re-inflate alveoli) and spontaneously after crying or intense emotional experience. The protocol is simply the deliberate, conscious application of the same mechanism.
 
+## In the Regulation Stack and Practice Ecology
+
+In the [[regulation-stack]] framework, the physiological sigh is a paradigmatic **Tier 1: Acute Reset** — the fastest available hardware override for hyper-arousal. In the [[practice-ecology]] framework, it belongs to **Category 4: Arousal Cyclers** — tools that complete the stress loop. In the [[technique-state-matching]] decision tree, it is the first-line Tier 1 override for high hyper-arousal states (panic, rage, heart racing). (Mapping Your Practices; Your Regulation Stack; Matching Technique to State)
+
 ## Sources
 
 - Lesson 9 — Breathwork Protocols
 - Card: "The Physiological Sigh"
+- Card: "Matching Technique to State"
+- Card: "Your Regulation Stack"

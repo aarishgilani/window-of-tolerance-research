@@ -3,9 +3,9 @@ title: "Humming, Chanting, and Gargling"
 type: practice
 description: "Vocal vibration mechanically stimulates the laryngeal vagal branches, sending bottom-up safety signals to the brainstem NTS and activating the Ventral Vagal Social Engagement System."
 tags: [humming, chanting, gargling, vagus-nerve, social-engagement, NTS, laryngeal-nerve, prosody, bhramari]
-related: [vagus-nerve, social-engagement-system, extended-exhale-breathing, neuroception, nucleus-of-solitary-tract]
-source_count: 1
-last_updated: 2026-06-15
+related: [vagus-nerve, social-engagement-system, extended-exhale-breathing, neuroception, nucleus-of-solitary-tract, co-regulation, technique-matching]
+source_count: 2
+last_updated: 2026-06-23
 ---
 
 # Humming, Chanting, and Gargling
@@ -68,7 +68,14 @@ Vigorous gargling with water activates pharyngeal muscles and laryngeal nerves a
 
 All three work without requiring a regulated state as a prerequisite — they create the regulated state through the mechanical pathway.
 
+## Internal Prosody: Self-Co-Regulation
+
+Lesson 10 adds a framing that deepens the Social Engagement connection: humming allows you to **"co-regulate with yourself"** by creating the musical, resonant tones the [[social-engagement-system]] associates with safety. Where [[co-regulation]] normally requires the presence of another regulated nervous system, vocal vibration produces the same prosodic safety signals internally — the practitioner is both broadcaster and receiver of the SES "we are safe" channel. (Lesson 10 note)
+
+This makes humming uniquely useful for practitioners who lack reliable external co-regulation resources (isolation, social anxiety) — it provides a self-generated Ventral Vagal "hook" through the same hardware that would normally require a safe other.
+
 ## Sources
 
 - Lesson 9 — Breathwork Protocols
+- Lesson 10 — Completing the Down-Regulation Toolkit
 - Card: "Humming, Chanting, and Gargling"

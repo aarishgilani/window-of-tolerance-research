@@ -2,8 +2,9 @@
 title: "Yoga as Interoceptive and Vagal Training"
 type: practice
 description: "Practiced with interoceptive awareness, yoga acts as a stress laboratory that trains the vagal brake and interoceptive accuracy under deliberate physical load."
-related: [interoception, insular-cortex, vagal-brake, body-scan, meditation-as-vagal-training, window-of-tolerance]
-last_updated: 2026-06-13
+related: [interoception, insular-cortex, vagal-brake, body-scan, meditation-as-vagal-training, window-of-tolerance, practice-ecology, regulation-stack, training-performance-recovery, ventral-sympathetic-blend]
+source_count: 2
+last_updated: 2026-06-23
 ---
 
 # Yoga as Interoceptive and Vagal Training
@@ -40,3 +41,19 @@ The same 8-week neuroplasticity threshold applies: consistent practice (body-awa
 - **Work in the "yellow zone"**: challenging enough to produce strong sensations, not so extreme that dissociation or pain compensation begins
 - **Use breath as the anchor**: the breath is simultaneously a vagal brake tool ([[respiratory-sinus-arrhythmia|RSA]]) and an interoceptive probe — when you lose the breath, you've lost the training
 - **Notice the shaking**: trembling in a hold is often the nervous system processing and completing incomplete arousal cycles — observe it rather than stopping to avoid it
+
+## Yoga in the Practice Ecology and Regulation Stack
+
+In the [[practice-ecology]] framework, yoga spans multiple categories depending on how it is practiced: (Mapping Your Practices)
+
+- **Yin/Slow Yoga** → Category 1: Sensors (Interoception Builders). Systematic body awareness without challenge, targeting the [[insular-cortex]]
+- **Intense Yoga** (holding difficult poses) → Category 3: Capacity (Window Expanders). A "stress laboratory" producing [[ventral-sympathetic-blend|Ventral-Sympathetic Blends]]
+
+In the [[regulation-stack]] framework, moderate yoga is a **Tier 2** (Daily Maintenance) practice on Yellow Light HRV days, while intense yoga is a **Tier 3** (Structural Builder) practice requiring adequate metabolic funding. (Your Regulation Stack; Training, Performance, and Recovery)
+
+The **Savasana** at the end of a yoga session is not just stretching — it is a **Vagal Reset** and an essential part of "closing the stress loop." Lying down (shifting the heart into a horizontal plane, increasing baroreflex sensitivity) and engaging in [[resonance-frequency-breathing]] forces the system back into a Ventral Vagal state, preventing the training stress from contributing to [[allostatic-load]]. (Training, Performance, and Recovery)
+
+## Sources
+
+- Lesson 7 — Emotions, Interoceptive Training, and the Window
+- Card: "Mapping Your Practices"

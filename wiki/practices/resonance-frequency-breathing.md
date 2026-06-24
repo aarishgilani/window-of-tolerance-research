@@ -3,8 +3,8 @@ title: "Resonance Frequency Breathing (0.1 Hz)"
 type: practice
 description: "Resonance frequency breathing at about six breaths per minute synchronizes respiration, heart rate, and the baroreflex to build structural vagal tone over time."
 related: [hrv, hrv-biofeedback, vagal-brake, respiratory-sinus-arrhythmia, nucleus-ambiguus, extended-exhale-breathing, predictive-body]
-source_count: 2
-last_updated: 2026-06-15
+source_count: 3
+last_updated: 2026-06-23
 ---
 
 # Resonance Frequency Breathing
@@ -77,8 +77,12 @@ A coherent nervous system sends unusually clear, rhythmic bottom-up data to the 
 
 - **Structural vagal training**: daily practice over 8–12 weeks
 - **Pre-meditation or pre-shadow work**: enters a high-coherence state that provides a strong Ventral anchor
-- **Post-exercise recovery**: when full recovery is the goal (not rapid bout recovery — see [[extended-exhale-breathing]])
+- **Post-exercise recovery / [[training-performance-recovery|The Savasana Rule]]**: lying down in a horizontal position (increases baroreflex sensitivity) and engaging RFB maximizes the amplitude of [[nucleus-ambiguus]] firing, "pumping" the vagal brake to force the system into Ventral Vagal state. This closes the stress loop, activates the anabolic switch, and prevents the post-workout "crash" that would shrink the [[window-of-tolerance]] for evening emotional work (Training, Performance, and Recovery)
 - **With [[hrv-biofeedback]]**: combines best with real-time feedback for precision and tracking
+
+## In the Regulation Stack and Practice Ecology
+
+In the [[regulation-stack]] framework, RFB is a paradigmatic **Tier 2: Daily Maintenance** practice — the core "morning funding phase" that builds the autonomic reserve required for Tier 3 structural work later. In the [[practice-ecology]] framework, it belongs to **Category 2: Hardware (Vagal Tone Trainers)** — practices that directly target the [[nucleus-ambiguus]] to improve the strength and responsiveness of the [[vagal-brake]]. In the [[technique-state-matching]] decision tree, it is the recommended Tier 3 optimization tool for when the practitioner is already inside the window and wants to deepen or stabilize. (Mapping Your Practices; Your Regulation Stack; Matching Technique to State)
 
 ## Sources
 
@@ -86,3 +90,4 @@ A coherent nervous system sends unusually clear, rhythmic bottom-up data to the 
 - Lesson 9 — Breathwork Protocols
 - Card: "Resonance Frequency Breathing"
 - Card: "HRV Biofeedback"
+- Card: "Training, Performance, and Recovery"

@@ -3,9 +3,9 @@ title: "Somatic Movement & Discharge"
 type: practice
 description: "Somatic discharge uses shaking, stretching, or rhythmic movement to release trapped sympathetic mobilization energy and complete an interrupted survival cycle."
 tags: [somatic-discharge, shaking, fight-flight-freeze, sympathetic-nervous-system, allostatic-load]
-related: [fight-flight-freeze, sympathetic-nervous-system, allostatic-load, body-scan, yoga-as-training]
-source_count: 4
-last_updated: 2026-06-15
+related: [fight-flight-freeze, sympathetic-nervous-system, allostatic-load, body-scan, yoga-as-training, technique-matching, technique-state-matching, regulation-stack, training-recovery-curve, training-performance-recovery, practice-ecology, no-skips-rule]
+source_count: 6
+last_updated: 2026-06-23
 ---
 
 # Somatic Movement & Discharge
@@ -67,7 +67,7 @@ Best for "wired," "jittery," post-adrenaline, or post-training Sympathetic state
 2. Begin bouncing gently from the knees, arms loose at the sides
 3. Let vibration travel up through hips, shoulders, and hands — allow it to become involuntary rather than "doing" the shake deliberately
 4. Add a low voiced exhale ("huuuuu") to layer laryngeal stimulation (see [[humming-chanting-gargling]])
-5. Duration: 1–2 minutes minimum
+5. Duration: 1-2 minutes minimum
 6. Stop abruptly; stand still and notice the "shimmer" or tingle in the limbs as the nervous system recalibrates
 
 (Card: "Somatic Movement and Discharge")
@@ -79,7 +79,7 @@ Best after a stressful day, heavy training session, or prolonged stillness to di
 1. Lie on your back; identify one area of held tension (shoulders, jaw, lower back)
 2. Very slowly *increase* the tension there over a count of 5 (e.g., shrug shoulders toward ears)
 3. Hold at maximum tension for 2 seconds
-4. Over 10–15 seconds, slowly release — far slower than feels natural; let the release take twice as long as intuition says
+4. Over 10-15 seconds, slowly release — far slower than feels natural; let the release take twice as long as intuition says
 5. Rest in the released state; notice the "before/after" felt sense in the insula — you are mapping the release as a new baseline
 
 (Card: "Somatic Movement and Discharge")
@@ -96,7 +96,7 @@ Tending (shaking, slow somatic movement) is distinct because it operates at Vent
 
 ## Evidence / Caveats
 
-Peter Levine's Somatic Experiencing (SE) model is the clinical framework underlying this page. SE has substantial case literature and is widely practiced in trauma-informed therapy; the psychophysiology of incomplete stress cycles is consistent with the broader stress physiology literature. RCT evidence specifically for TRE is still developing. The physiological mechanisms (catecholamine-sustained hypertonia → voluntary discharge → regulatory recovery) are well-grounded even where the specific protocols await larger randomized trials.
+Peter Levine's Somatic Experiencing (SE) model is the clinical framework underlying this page. SE has substantial case literature and is widely practiced in trauma-informed therapy; the psychophysiology of incomplete stress cycles is consistent with the broader stress physiology literature. RCT evidence specifically for TRE is still developing. The physiological mechanisms (catecholamine-sustained hypertonia -> voluntary discharge -> regulatory recovery) are well-grounded even where the specific protocols await larger randomized trials.
 
 ## When to Use
 
@@ -104,16 +104,30 @@ Peter Levine's Somatic Experiencing (SE) model is the clinical framework underly
 - **At the end of a [[yoga-as-training|training session]]** — completing the sympathetic-to-parasympathetic transition rather than abruptly stopping
 - **As part of exiting a [[fight-flight-freeze|Freeze]] state** alongside [[grounding-techniques|grounding techniques]]
 
+## In the Practice Ecology and Regulation Stack
+
+In the [[practice-ecology]] framework, somatic discharge is a **Category 4: Arousal Cycler** — one of the "clean-up crew" tools that completes the loop of the [[sympathetic-nervous-system]]. Without Arousal Cyclers, practitioners accumulate [[allostatic-load]] even if they have strong Interoception Builders, Vagal Tone Trainers, and Window Expanders. The common "Mobilization Addict" gap pattern involves heavy investment in intense training and shadow work (Category 3 Window Expanders) without adequate discharge (Category 4), resulting in chronic "wired but tired" hyper-arousal. (Mapping Your Practices)
+
+In the [[technique-matching|three-tier system]], somatic discharge operates at **Tier 2 (Process)** — for the edges of the [[window-of-tolerance]] where the practitioner is approaching a zone boundary or beginning to return from a zone excursion. Shaking and TRE are the primary tools for discharging hyper-arousal energy; slow somatic movement (pandiculation) is the tool for "thawing" from hypo-arousal. (Lesson 10 note)
+
+In the [[regulation-stack]] framework, shaking/discharge functions as both a **Tier 1: Acute Reset** (for hypo-arousal/shutdown, where it serves as the thaw mechanism per the [[no-skips-rule]]) and a **Tier 2: Discharge** tool (at the hyper-arousal edge of the window). In the [[technique-state-matching|decision framework]], it is the recommended Tier 2 response for both "jittery/anxious/tight" states and for "vigorous movement" needed to exit deep hypo-arousal. (Matching Technique to State; Your Regulation Stack; Lesson 11 note)
+
 ## Related Concepts
 
 - [[fight-flight-freeze]] — the incomplete survival cycle this practice addresses
 - [[sympathetic-nervous-system]] — the activation being discharged
 - [[allostatic-load]] — the cost of repeatedly failing to discharge
 - [[body-scan]] — the interoceptive practice for noticing undischarged charge
+- [[practice-ecology]] — categorizes discharge as a Category 4 Arousal Cycler
+- [[regulation-stack]] — positions discharge in Tiers 1 and 2
+- [[training-performance-recovery]] — post-training discharge as stress loop closure
 
 ## Sources
 
+- Lesson 10 — Completing the Down-Regulation Toolkit
+- Lesson 11 — The Regulation Stack and Practice Ecology
 - Card: "Somatic Movement and Discharge"
 - Card: "Fight, Flight, and Freeze"
 - Card: "Sympathetic Mobilization Circuit"
 - Card: "Sympathetic Branch"
+- Card: "Mapping Your Practices"

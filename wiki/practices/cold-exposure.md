@@ -3,9 +3,9 @@ title: "Cold Exposure (Mammalian Diving Reflex)"
 type: practice
 description: "Cold water on the trigeminal V1 zone triggers the Mammalian Diving Reflex, producing near-total cortisol inhibition and immediate bradycardia independent of mental state."
 tags: [cold-exposure, mammalian-diving-reflex, trigeminal-nerve, cortisol, HPA-axis, vagal-brake, allostatic-load]
-related: [vagal-brake, vagus-nerve, nucleus-ambiguus, allostatic-load, hrv, physiological-sigh]
-source_count: 2
-last_updated: 2026-06-15
+related: [vagal-brake, vagus-nerve, nucleus-ambiguus, allostatic-load, hrv, physiological-sigh, technique-matching, regulation-stack]
+source_count: 3
+last_updated: 2026-06-23
 ---
 
 # Cold Exposure (Mammalian Diving Reflex)
@@ -55,8 +55,20 @@ A cold shower provides general sympathetic stimulation (with its own resilience 
 - **Post-workout recovery**: accelerate the shift from sympathetic training to parasympathetic recovery
 - **Between shadow work sessions**: clear accumulated allostatic load before beginning the next round
 
+## Tier Placement
+
+Cold exposure is a **Tier 1 (Override)** tool in the [[technique-matching|three-tier system]] and [[regulation-stack]]. It is classified as "hardware" because the MDR is a reflex arc — a hard-wired evolutionary override that works independently of focus, belief, or prior regulation skill. This distinguishes it from breathwork ("software"), which requires some degree of cognitive engagement. When the [[window-of-tolerance]] is broken and cognitive tools feel "too far away," the MDR is the tool of first resort. (Lesson 10 note)
+
+In the [[regulation-stack]]'s functional audit, cold exposure serves double duty:
+- **Tier 1 (Acute Reset)**: emergency hardware override for immediate hyper-arousal
+- **Capacity (Window Expander)**: when used as a deliberate practice, cold exposure functions as a "stress laboratory" that uses [[progressive-overload]] to widen the window
+
+(Lesson 11 note)
+
 ## Sources
 
 - Lesson 9 — Breathwork Protocols
+- Lesson 10 — Completing the Down-Regulation Toolkit
+- Lesson 11 — The Regulation Stack and Practice Ecology
 - Card: "Cold Exposure and the Diving Reflex"
 - Richer et al. (2022) — Vagus activation by Cold Face Test

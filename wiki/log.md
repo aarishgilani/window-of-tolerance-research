@@ -1,7 +1,7 @@
 ---
 title: "Activity Log"
 description: "An append-only log tracking every wiki ingest, query, and lint pass, recording which pages were created or updated and when."
-last_updated: 2026-06-15
+last_updated: 2026-06-23
 ---
 
 # Wiki Log
@@ -106,3 +106,28 @@ Corrections to existing wiki pages:
 
 ## [2026-06-15] maintenance | index.md and log.md updated for 2026-06-15 ingest
 index.md: added concepts/antifragility; updated orchids-dandelions description; added cold-exposure, humming-chanting-gargling, somatic-movement-discharge to Practices index; updated body-scan and meditation-as-vagal-training descriptions; added all 10 PDF sources to Sources section; updated last_updated to 2026-06-15.
+
+## [2026-06-23] ingest | Lesson 10 — Completing the Down-Regulation Toolkit
+Pages created: sources/lesson-10, concepts/technique-matching
+Pages updated: practices/cold-exposure (Tier placement, hardware vs. software framing), practices/humming-chanting-gargling (internal prosody, self-co-regulation), practices/somatic-movement-discharge (Tier placement), practices/meditation-as-vagal-training (Stillness Trap, 8-12 week timeline, Tier placement), practices/body-scan (software patch framing)
+
+## [2026-06-23] ingest | Lesson 11 — The Regulation Stack and Practice Ecology
+Pages created: sources/lesson-11, concepts/regulation-stack, concepts/training-recovery-curve, concepts/nervous-system-field-guide
+Pages updated: concepts/shadow-work (Golden Rule of Integration, Dual Awareness, Catharsis vs. Integration), concepts/progressive-overload (V-Curve, sequencing logic), concepts/hrv (HRV as Fuel Gauge), concepts/ventral-sympathetic-blend (Holding the Heat, intra-workout regulation)
+
+## [2026-06-23] ingest | Cluster I — Practice Application Cards (concept cards)
+Pages created: concepts/practice-ecology, concepts/technique-state-matching, concepts/training-performance-recovery
+Pages updated: concepts/progressive-overload (three tiers of overload, physical training, funding rule), concepts/shadow-work (Ventral Anchor strategy, Tier 3 categorization), concepts/allostatic-load (overtraining as shared metabolic budget), concepts/hrv (HRV as fuel gauge for training), concepts/ventral-sympathetic-blend (Ventral Anchor techniques, blend in training, blend in practice ecology), concepts/window-of-tolerance (applied frameworks section), concepts/no-skips-rule (practice selection subsection), practices/physiological-sigh (intra-workout protocol, regulation stack context), practices/yoga-as-training (practice ecology multi-category), practices/somatic-movement-discharge (Category 4 Arousal Cycler), practices/body-scan (Category 1 Sensor framing), practices/meditation-as-vagal-training (Hardware First rule, multi-category), practices/resonance-frequency-breathing (Savasana Rule, Category 2), practices/box-breathing (intra-workout protocol)
+Source cards: Mapping Your Practices, Matching Technique to State, Your Regulation Stack, Training Performance and Recovery
+
+## [2026-06-23] ingest | Cluster J — Integration/Synthesis Cards (concept cards)
+Pages created: concepts/top-down-modulation
+Pages updated: concepts/shadow-work (ventral anchoring protocol, dual awareness split-focus, catching the slide, co-regulation as ventral hook, catharsis myth), concepts/ventral-sympathetic-blend (stretch-zone framing, top-down modulation), practices/meditation-as-vagal-training (three-phase neurological rep loop), concepts/neuroception (environmental safety anchors, neuroscience scaffold), concepts/co-regulation (ventral hook in shadow work, moral alignment), concepts/progressive-overload (weekly expansion schedule)
+Source cards: Neuroscience Meets Practice, Shadow Work and the Window, Your Nervous System Field Guide. Skipped: "A wonderful new card 6" (empty placeholder).
+
+## [2026-06-23] ingest | 2 new PDF research papers (both FLAGGED out of scope)
+Pages created: sources/xu-2023-ecological-transitions-FLAGGED, sources/mattson-2021-goodharts-law-gme-FLAGGED
+Notes: Xu et al. 2023 — mathematical ecology / nonequilibrium statistical mechanics. Mattson et al. 2021 — Goodhart's Law in medical education. Neither relevant to ANS/polyvagal domain. Both flagged for removal from raw/Card Library/.
+
+## [2026-06-23] maintenance | Consolidated multi-agent ingest and merged overlapping updates
+Merged overlapping updates from 4 parallel agents into unified pages. Files with content from multiple agents: shadow-work (3 agents), ventral-sympathetic-blend (3), progressive-overload (3), meditation-as-vagal-training (3), hrv (2), body-scan (2), somatic-movement-discharge (2), regulation-stack (2 — merged concept versions; absorbed synthesis duplicate). Updated index.md with 10 new concept entries, 2 new lesson sources, 2 FLAGGED papers.

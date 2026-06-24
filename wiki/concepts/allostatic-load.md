@@ -4,8 +4,8 @@ type: concept
 description: "Allostatic load is the cumulative wear from staying physiologically ready for unresolved chronic stress, which drifts the resting baseline upward and shrinks the window from below."
 tags: [allostasis, allostatic-load, baseline-drift, window-of-tolerance, stress, chronic-stress]
 related: [window-of-tolerance, sympathetic-nervous-system, vagal-brake, hrv, co-regulation, hpa-axis, fight-flight-freeze]
-source_count: 4
-last_updated: 2026-06-14
+source_count: 5
+last_updated: 2026-06-23
 ---
 
 # Allostasis and Allostatic Load
@@ -98,6 +98,16 @@ Just as the baseline can drift upward, it can be deliberately coached back down 
 
 The distinction between acute stress and chronic baseline is the difference between a single wave and the tide: fight/flight/freeze are tools for surviving a moment, while allostasis is the strategy for surviving a lifetime. "Regulation" isn't only what happens when upset — it's the daily hygiene of maintaining a low baseline, which is what creates the "slack" that widens the [[window-of-tolerance]].
 
+## Overtraining as Allostatic Load: The Shared Metabolic Budget
+
+The nervous system does not have separate "buckets" for physical stress, emotional stress, and work stress — it is all the same allostatic load. Chronic physical overtraining — consistently pushing into [[regulation-stack|Tier 3]] without adequate vagal recovery — leads to **Autonomic Brittleness**, a specific form of Baseline Drift where the resting state shifts upward: (Training, Performance, and Recovery)
+
+- "Rest" is no longer restful. [[hrv|HRV]] stays low, resting heart rate stays high, and the [[window-of-tolerance]] shrinks
+- All metabolic funding is consumed dealing with unresolved physical stress, leaving zero [[interoception|lead time]] when a relationship conflict or work deadline arises
+- Minor issues trigger snapping or [[dorsal-vagal-complex|Dorsal Vagal]] collapse over trivial provocations
+
+This is not a failure of mindfulness — it is running out of hardware capacity. A "Resilient Ecology" (see [[regulation-stack]]) must be holistic: if planning a month of intense [[shadow-work]] or a high-stakes project, physical training must be dialed back to Tier 2. The window cannot be expanded in two different directions simultaneously without risking system-wide shutdown. (Training, Performance, and Recovery)
+
 ## Related Concepts
 
 - [[window-of-tolerance]] — the bandwidth that allostatic load shrinks from below
@@ -107,9 +117,12 @@ The distinction between acute stress and chronic baseline is the difference betw
 - [[vagal-brake]] — the mechanism re-engaged during allostatic offloading
 - [[hrv]] / [[hrv-biofeedback]] — markers and training methods for allostatic capacity
 - [[co-regulation]] — social "metabolic funding" that reduces allostatic load
+- [[regulation-stack]] — the tiered framework for balancing load against recovery
+- [[training-performance-recovery]] — physical training as a specific source of allostatic load
 
 ## Sources
 
 - Lesson 2 — The Autonomic Nervous System
 - Lesson 8 — Sleep, Recovery, and Long-Term Regulation
 - Card: "Allostasis and the Baseline"
+- Card: "Training, Performance, and Recovery"
