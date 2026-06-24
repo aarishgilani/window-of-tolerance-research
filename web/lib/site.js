@@ -187,6 +187,8 @@ function navHtml(index, currentUrlPath, hrefForPage) {
     html += `<ul class="nav-toplevel">${topLevel.map(link).join('')}</ul>`;
   }
 
+  html += `<ul class="nav-toplevel"><li><a href="${hrefForPage({ urlPath: 'graph' })}"${currentUrlPath === 'graph' ? ' class="active"' : ''}>Concept Map</a></li></ul>`;
+
   for (const cat of CATEGORY_ORDER) {
     const items = index.pages
       .filter((p) => p.category === cat)
@@ -228,6 +230,7 @@ function layout({
   staticHref,
   homeHref,
   jsonLd,
+  extraScripts = '',
 }) {
   const desc = description || SITE_DESCRIPTION;
   const image = ogImage || `${SITE_URL}static/og-default.png`;
@@ -278,6 +281,7 @@ ${jsonLdHtml}
     ${footerHtml(index, hrefForPage)}
   </main>
 </div>
+${extraScripts}
 <script src="${staticHref('app.js')}"></script>
 </body>
 </html>`;

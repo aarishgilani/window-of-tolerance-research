@@ -283,3 +283,29 @@ th {
 .footer-links {
   margin-bottom: 0.25rem;
 }
+
+/* Graph view */
+#cy {
+  margin-top: 1rem;
+  min-height: 600px;
+  background: #0f172a;
+}
+
+.graph-legend {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}

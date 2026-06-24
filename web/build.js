@@ -159,6 +159,7 @@ function renderFullPage({
   index,
   bodyHtml,
   jsonLd,
+  extraScripts = '',
 }) {
   return site.layout({
     title,
@@ -170,10 +171,109 @@ function renderFullPage({
     index,
     bodyHtml,
     jsonLd,
+    extraScripts,
     hrefForPage: hrefForPageFactory(depthUrlPath),
     staticHref: staticHrefFactory(depthUrlPath),
     homeHref: homeHrefForUrlPath(depthUrlPath),
   });
+}
+
+function writeGraphJson(outDir, index, wikiDir) {
+  const hrefForPage = hrefForPageFactory('graph');
+  const nodeExclude = new Set(['index', 'log']);
+  const nodes = [];
+  const edgeSet = new Set();
+  const edges = [];
+
+  for (const page of index.pages) {
+    if (nodeExclude.has(page.slug)) continue;
+    nodes.push({
+      id: page.slug,
+      label: page.title,
+      category: page.category || null,
+      url: hrefForPage(page),
+    });
+  }
+
+  function addEdge(srcSlug, tgtSlug) {
+    if (srcSlug === tgtSlug) return;
+    const [a, b] = srcSlug < tgtSlug ? [srcSlug, tgtSlug] : [tgtSlug, srcSlug];
+    const key = `${a}--${b}`;
+    if (edgeSet.has(key)) return;
+    edgeSet.add(key);
+    edges.push({ source: a, target: b });
+  }
+
+  for (const page of index.pages) {
+    if (nodeExclude.has(page.slug)) continue;
+
+    // Edge source 1: frontmatter related
+    for (const rel of page.related) {
+      const targetSlug = site.slugify(rel);
+      if (index.bySlug.has(targetSlug) && !nodeExclude.has(targetSlug)) {
+        addEdge(page.slug, targetSlug);
+      }
+    }
+
+    // Edge source 2: inline [[wiki links]]
+    const filePath = path.join(wikiDir, page.rel);
+    let raw;
+    try {
+      raw = fs.readFileSync(filePath, 'utf8');
+    } catch {
+      continue;
+    }
+    const wikiLinkRe = /\[\[([^\]|]+)(\|([^\]]+))?\]\]/g;
+    let match;
+    while ((match = wikiLinkRe.exec(raw)) !== null) {
+      const target = match[1].trim();
+      const targetSlug = site.slugify(target);
+      if (index.bySlug.has(targetSlug) && !nodeExclude.has(targetSlug)) {
+        addEdge(page.slug, targetSlug);
+      }
+    }
+  }
+
+  writeFile(path.join(outDir, 'static', 'graph.json'), JSON.stringify({ nodes, edges }, null, 2));
+}
+
+function renderGraphPage(outDir, index) {
+  const staticHref = staticHrefFactory('graph');
+  const bodyHtml = `<article>
+  <header class="page-header">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="../">Home</a><span class="sep">/</span>
+      <span aria-current="page">Concept Map</span>
+    </nav>
+    <h1>Concept Map</h1>
+    <p class="subtitle">Interactive graph of all wiki pages and their connections. Click a node to navigate.</p>
+  </header>
+  <div id="cy" style="width: 100%; height: 70vh; border: 1px solid var(--border); border-radius: 6px;"></div>
+  <div class="graph-legend">
+    <span class="legend-dot" style="background: #2f6f4f;"></span> Concepts
+    <span class="legend-dot" style="background: #1f6feb;"></span> Entities
+    <span class="legend-dot" style="background: #b45309;"></span> Practices
+    <span class="legend-dot" style="background: #6b7280;"></span> Sources
+    <span class="legend-dot" style="background: #7c3aed;"></span> Syntheses
+  </div>
+</article>`;
+
+  const extraScripts = `<script src="https://unpkg.com/cytoscape@3/dist/cytoscape.min.js"></script>
+<script src="https://unpkg.com/layout-base/layout-base.js"></script>
+<script src="https://unpkg.com/cose-base/cose-base.js"></script>
+<script src="https://unpkg.com/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
+<script src="${staticHref('graph-init.js')}"></script>`;
+
+  const html = renderFullPage({
+    title: 'Concept Map',
+    description: 'Interactive graph of all wiki pages and their connections in the Window of Tolerance knowledge base.',
+    pageType: 'website',
+    currentUrlPath: 'graph',
+    index,
+    bodyHtml,
+    extraScripts,
+  });
+  writeFile(path.join(outDir, 'wiki', 'graph', 'index.html'), html);
 }
 
 function build() {
@@ -256,6 +356,10 @@ function build() {
     bodyHtml: notFoundBody,
   });
   writeFile(path.join(OUT_DIR, '404.html'), notFoundHtml);
+
+  writeGraphJson(OUT_DIR, index, WIKI_DIR);
+  renderGraphPage(OUT_DIR, index);
+  pagesForSitemap.push({ urlPath: 'graph', title: 'Concept Map', description: 'Interactive graph of all wiki pages and their connections in the Window of Tolerance knowledge base.', lastUpdated: site.latestUpdate(index) });
 
   writeSitemap(OUT_DIR, pagesForSitemap);
   writeRobotsTxt(OUT_DIR);
